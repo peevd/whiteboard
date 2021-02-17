@@ -1,0 +1,50 @@
+version: '3.4'
+
+services:
+    whiteboard:
+        image: whiteboard:latest
+        build:
+            context: .
+            network: host
+        restart: always
+        container_name: whiteboard_app
+        dns: 8.8.8.8
+        ports:
+            - 80:80
+        volumes:
+            - ./b_data:/b_data
+            - courses-volume:/whiteboard/client/dist/static/courses
+            - present-volume:/whiteboard/client/dist/static/presentations
+        depends_on:
+          - mariadb
+
+    presenthandler:
+        image: presenthandler:latest
+        build:
+            context: present_handler
+            network: host
+        restart: always
+        container_name: presenthandler
+        dns: 8.8.8.8
+        ports:
+            - 9999:80
+        volumes:
+            - present-volume:/static/presentations
+            - courses-volume:/static/courses
+
+    mariadb:
+        image: mariadb
+        restart: always
+        container_name: whiteboard_db
+        environment:
+            - MYSQL_ROOT_PASSWORD=${MYSQL_ROOT_PASSWORD}
+            - MYSQL_DATABASE=${MYSQL_DATABASE}
+            - MYSQL_USER=${MYSQL_USER}
+            - MYSQL_PASSWORD=${MYSQL_PASSWORD}
+        volumes:
+            - ./config/custom.cnf:/etc/mysql/conf.d/custom.cnf
+            - ./mariadb:/var/lib/mysql
+
+volumes:
+    present-volume:
+    courses-volume:

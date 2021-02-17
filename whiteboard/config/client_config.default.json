@@ -1,0 +1,12 @@
+{
+  "hostname": "",
+  "apiPath": "",
+  "google": {
+    "clientId": ""
+  },
+  "peerKey": "",
+  "peerHost": "",
+  "peerPort": 9000,
+  "peerSecure": false,
+  "stripePK": ""
+}

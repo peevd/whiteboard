@@ -1,0 +1,31 @@
+SECRET_KEY = ''
+
+SQLALCHEMY_DATABASE_URI = 'mysql+pymysql://[USERNAME]:[PASSWORD]@whiteboard_db/[DB_NAME]'
+
+GOOGLE_ID = ''
+GOOGLE_SECRET = ''
+
+TOKEN_SECRET = ''
+
+B_DATA_FILES_DIR = '/b_data/'
+
+BASIC_AUTH_USERNAME = ''
+BASIC_AUTH_PASSWORD = ''
+
+FROM_ADDR = ''
+EMAIL_PASS = ''
+SMTP_SERVER = ''
+SMTP_SERVER_PORT = 0
+
+HOST = ''
+
+UPLOAD_FOLDER = 'client/dist/static/'
+
+ALLOWED_EXTENSIONS = ['png', 'jpg', 'jpeg']
+
+STRIPE_SECRET_KEY = ''
+STRIPE_PUBLISHABLE_KEY = ''
+
+PRESENT_ALLOWED_EXTENSIONS = set(["ppt", "otp", "odp"])
+PRESENT_UPLOAD_FOLDER = ''
+PRESEND_HANDLER_HOST = ''

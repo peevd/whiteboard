@@ -1,0 +1,3061 @@
+{
+	"_type": "export",
+	"__export_format": 3,
+	"__export_date": "2019-04-23T14:36:12.692Z",
+	"__export_source": "insomnia.desktop.app:v6.0.2",
+	"resources": [
+		{
+			"_id": "wrk_9995ec5d10544742a07dedb69d23f4c2",
+			"created": 1540048507952,
+			"description": "",
+			"modified": 1540048507952,
+			"name": "Insomnia",
+			"parentId": null,
+			"_type": "workspace"
+		},
+		{
+			"_id": "env_395b5fe54be043588ab71da5db9d2f22",
+			"color": null,
+			"created": 1540048507984,
+			"data": {
+				"token": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOjEsImlhdCI6MTU1NTA4MDE0NSwiZXhwIjoxNTU2Mjg5NzQ1fQ.0EbeJSk6mzpOjAgl_OwGPFDPGPxfB-0d1sgKHeSQaiQ",
+				"token2": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOjUsImlhdCI6MTU1Mjk5MjEzMSwiZXhwIjoxNTU0MjAxNzMxfQ.GJKUXe9fs9m3oudpKQEazsW1666kDirxHMhA8dM7EYQ",
+				"token3": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOjMsImlhdCI6MTU1Mjk5NjYxNiwiZXhwIjoxNTU0MjA2MjE2fQ.sZemE9QuJo3uFHamThnHJHyaJFPIS1D2a69B5DytFsg"
+			},
+			"isPrivate": false,
+			"metaSortKey": 1540048507984,
+			"modified": 1556030160966,
+			"name": "New Environment",
+			"parentId": "wrk_9995ec5d10544742a07dedb69d23f4c2",
+			"_type": "environment"
+		},
+		{
+			"_id": "jar_67b72bcb7edc44f1983f4ce14e16cc98",
+			"cookies": [
+				{
+					"creation": "2019-02-01T11:27:32.703Z",
+					"domain": "localhost",
+					"hostOnly": true,
+					"httpOnly": true,
+					"id": "26602509506044125",
+					"key": "session",
+					"lastAccessed": "2019-02-01T17:55:58.247Z",
+					"path": "/",
+					"value": "eyJhZG1pbl9hdXRoZW50aWNhdGVkIjoxfQ.DzYZrg.bHUXZwPRx-bQSQqVxHnX2h9Pnoc"
+				},
+				{
+					"creation": "2019-04-01T12:14:47.874Z",
+					"domain": "google.com",
+					"expires": "2019-05-01T12:14:47.000Z",
+					"hostOnly": false,
+					"id": "3748455085999005",
+					"key": "1P_JAR",
+					"lastAccessed": "2019-04-01T12:14:47.874Z",
+					"path": "/",
+					"value": "2019-04-01-12"
+				},
+				{
+					"creation": "2019-04-01T12:14:47.875Z",
+					"domain": "google.com",
+					"expires": "2019-10-01T12:14:47.000Z",
+					"hostOnly": false,
+					"httpOnly": true,
+					"id": "9113909823728994",
+					"key": "NID",
+					"lastAccessed": "2019-04-01T12:14:47.875Z",
+					"path": "/",
+					"value": "180=wMvCRlVEX1B2l_h9fivoYxR-rFFBkdnaPMmLRfbvjRKOForHkVaThZrUv7ykVEB_Hd83cInFTfzDXXUdoCKgS7B_oH3y7BM6GxZJE5DjmwTDtyRUdXZ23EihmI_GHr52oKNKbhMPKC8K-sqczXviptDg8VOkc-zG3QZ0ws8kIaw"
+				}
+			],
+			"created": 1540048507985,
+			"modified": 1554120887878,
+			"name": "Default Jar",
+			"parentId": "wrk_9995ec5d10544742a07dedb69d23f4c2",
+			"_type": "cookie_jar"
+		},
+		{
+			"_id": "fld_1529d2614c0c4ee88da74a42a634aa61",
+			"created": 1540737175408,
+			"description": "",
+			"environment": {},
+			"metaSortKey": -1540737175408,
+			"modified": 1540737175408,
+			"name": "courses",
+			"parentId": "wrk_9995ec5d10544742a07dedb69d23f4c2",
+			"_type": "request_group"
+		},
+		{
+			"_id": "fld_f9d2067c52cb4aac9611413dbd3bb3d3",
+			"created": 1540737219455,
+			"description": "",
+			"environment": {},
+			"metaSortKey": -1540737208279.5,
+			"modified": 1549233994112,
+			"name": "users",
+			"parentId": "wrk_9995ec5d10544742a07dedb69d23f4c2",
+			"_type": "request_group"
+		},
+		{
+			"_id": "fld_27b112dfe2974ba7840caa66d9abefd4",
+			"created": 1540737241151,
+			"description": "",
+			"environment": {},
+			"metaSortKey": -1540737241151,
+			"modified": 1540737241151,
+			"name": "tasks",
+			"parentId": "wrk_9995ec5d10544742a07dedb69d23f4c2",
+			"_type": "request_group"
+		},
+		{
+			"_id": "fld_e3a0e56cda4042fd802eb30098f8871a",
+			"created": 1541422717850,
+			"description": "",
+			"environment": {},
+			"metaSortKey": -1541422717850,
+			"modified": 1541422717850,
+			"name": "groups",
+			"parentId": "wrk_9995ec5d10544742a07dedb69d23f4c2",
+			"_type": "request_group"
+		},
+		{
+			"_id": "fld_96b0fbdfb24d440b84ce2365eaef96e9",
+			"created": 1541517923170,
+			"description": "",
+			"environment": {},
+			"metaSortKey": -1541517923170,
+			"modified": 1541517923170,
+			"name": "participants",
+			"parentId": "wrk_9995ec5d10544742a07dedb69d23f4c2",
+			"_type": "request_group"
+		},
+		{
+			"_id": "fld_7b22e1b2f0504c30aff987b1ab7ec09c",
+			"created": 1542212640728,
+			"description": "",
+			"environment": {},
+			"metaSortKey": -1542212640728,
+			"modified": 1542212640728,
+			"name": "student answers",
+			"parentId": "wrk_9995ec5d10544742a07dedb69d23f4c2",
+			"_type": "request_group"
+		},
+		{
+			"_id": "fld_f77000049cba41239cfccb93bdaf5ada",
+			"created": 1544003678355,
+			"description": "",
+			"environment": {},
+			"metaSortKey": -1544003678356,
+			"modified": 1544003678355,
+			"name": "results",
+			"parentId": "wrk_9995ec5d10544742a07dedb69d23f4c2",
+			"_type": "request_group"
+		},
+		{
+			"_id": "fld_312d8ab0c4264b1d905fe06ae24e1793",
+			"created": 1544449774401,
+			"description": "",
+			"environment": {},
+			"metaSortKey": -1544449774401,
+			"modified": 1544449817690,
+			"name": "emails",
+			"parentId": "wrk_9995ec5d10544742a07dedb69d23f4c2",
+			"_type": "request_group"
+		},
+		{
+			"_id": "fld_6e021897040f4c889b1d29ab56ca61f1",
+			"created": 1548422639650,
+			"description": "",
+			"environment": {},
+			"metaSortKey": -1548422639650,
+			"modified": 1548422639650,
+			"name": "payments",
+			"parentId": "wrk_9995ec5d10544742a07dedb69d23f4c2",
+			"_type": "request_group"
+		},
+		{
+			"_id": "fld_1395b5b75f484361816c3bfbd6f3b870",
+			"created": 1549233924644,
+			"description": "",
+			"environment": {},
+			"metaSortKey": -1541470320510,
+			"modified": 1549233939388,
+			"name": "events",
+			"parentId": "wrk_9995ec5d10544742a07dedb69d23f4c2",
+			"_type": "request_group"
+		},
+		{
+			"_id": "fld_5c088047f3b54e9c84573a0e4a52068a",
+			"created": 1549628450469,
+			"description": "",
+			"environment": {},
+			"metaSortKey": -1541446519180,
+			"modified": 1551955674499,
+			"name": "approval_requests",
+			"parentId": "wrk_9995ec5d10544742a07dedb69d23f4c2",
+			"_type": "request_group"
+		},
+		{
+			"_id": "fld_ee3922b2952344be8e5b64f0d175b7ed",
+			"created": 1552909330175,
+			"description": "",
+			"environment": {},
+			"metaSortKey": -1552909330175,
+			"modified": 1552909330175,
+			"name": "lessons",
+			"parentId": "wrk_9995ec5d10544742a07dedb69d23f4c2",
+			"_type": "request_group"
+		},
+		{
+			"_id": "fld_19f3ade713554ed5b374c14989cba26b",
+			"created": 1555419070417,
+			"description": "",
+			"environment": {},
+			"metaSortKey": -1540737191843.75,
+			"modified": 1555931552695,
+			"name": "present_handler",
+			"parentId": "wrk_9995ec5d10544742a07dedb69d23f4c2",
+			"_type": "request_group"
+		},
+		{
+			"_id": "fld_c988be5cbffa4c19aab359b6f6330889",
+			"created": 1555946074545,
+			"description": "",
+			"environment": {},
+			"metaSortKey": -1555946074545,
+			"modified": 1555946074545,
+			"name": "presentations",
+			"parentId": "fld_1529d2614c0c4ee88da74a42a634aa61",
+			"_type": "request_group"
+		},
+		{
+			"_id": "fld_9d3d00f94b204da09d900c8a543cc44b",
+			"created": 1555946132628,
+			"description": "",
+			"environment": {},
+			"metaSortKey": -1555946132628,
+			"modified": 1555946132628,
+			"name": "course_image",
+			"parentId": "fld_1529d2614c0c4ee88da74a42a634aa61",
+			"_type": "request_group"
+		},
+		{
+			"_id": "req_893373692eba48eeb0c42e46264a665b",
+			"authentication": {},
+			"body": {
+				"mimeType": "application/xml",
+				"text": ""
+			},
+			"created": 1540048523840,
+			"description": "available arguments:\n\n?f=all (get all available courses)\n\n?f=mine (get courses that you own)\n\n?f=coursesIn (get courses that you participating)\n\n?f=coursesInCount (get count of courses that you participating)\n\n?f=count (get count of all courses)\n\t\t\n\t\t\t&status=\"open\", \"waiting_approval\", \"rejected\", \"closed\" (get count of courses with current status)\n",
+			"headers": [
+				{
+					"disabled": false,
+					"id": "pair_12a24d4470664b6c92db4516f990a18e",
+					"name": "Authorization",
+					"value": "{{ token  }}"
+				},
+				{
+					"disabled": true,
+					"id": "pair_aca66ea083874d879f8a54880b437df0",
+					"name": "Authorization",
+					"value": "{{ token2  }}"
+				},
+				{
+					"disabled": true,
+					"id": "pair_4375cecfe417471b81cd6f439baef591",
+					"name": "Authorization",
+					"value": "{{ token3 }}"
+				},
+				{
+					"id": "pair_d058042584404c27bc4f1b8a85a5830e",
+					"name": "Content-Type",
+					"value": "application/xml"
+				}
+			],
+			"isPrivate": false,
+			"metaSortKey": -1540737164132.5,
+			"method": "GET",
+			"modified": 1556030161319,
+			"name": "get_courses",
+			"parameters": [],
+			"parentId": "fld_1529d2614c0c4ee88da74a42a634aa61",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingMaxTimelineDataSize": 1000,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "http://127.0.0.1:5000/api/courses?f=all",
+			"_type": "request"
+		},
+		{
+			"_id": "req_9b5e055035df400c956fd8205d2bf852",
+			"authentication": {},
+			"body": {
+				"mimeType": "application/json",
+				"text": "{\n\t\"name\" : \"test 887\",\n\t\"description\" : \"test 887\",\n\t\"price\": 20.20\n}"
+			},
+			"created": 1540049032374,
+			"description": "Create new course (available only for user with teacher role).",
+			"headers": [
+				{
+					"id": "pair_d79878e91fb9461c8992b90b18ece47b",
+					"name": "Content-Type",
+					"value": "application/json"
+				},
+				{
+					"disabled": false,
+					"id": "pair_8ce35d2fdfd8480aa58b60c91c203fc0",
+					"name": "Authorization",
+					"value": "{{ token  }}"
+				},
+				{
+					"disabled": true,
+					"id": "pair_1df3b07f3360455bb6f7304aa027e198",
+					"name": "Authorization",
+					"value": "{{ token2  }}"
+				}
+			],
+			"isPrivate": false,
+			"metaSortKey": -1540737164095,
+			"method": "POST",
+			"modified": 1555945040236,
+			"name": "add_courses",
+			"parameters": [],
+			"parentId": "fld_1529d2614c0c4ee88da74a42a634aa61",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingMaxTimelineDataSize": 1000,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "http://127.0.0.1:5000/api/courses",
+			"_type": "request"
+		},
+		{
+			"_id": "req_26b284db75b6493aab35e3397fd407a6",
+			"authentication": {},
+			"body": {},
+			"created": 1540125104825,
+			"description": "Delete information for course(available only for course owner).",
+			"headers": [
+				{
+					"disabled": false,
+					"id": "pair_7e41a71660c14e58bbde9ab69d16ba7e",
+					"name": "Authorization",
+					"value": "{{ token }}"
+				},
+				{
+					"disabled": true,
+					"id": "pair_001d4209e6b94210b596088cf3d060b1",
+					"name": "Authorization",
+					"value": "{{ token2  }}"
+				},
+				{
+					"disabled": true,
+					"id": "pair_33b5f0e099fd46bea273f041c0d0ddc8",
+					"name": "Authorization",
+					"value": "{{ token3 }}"
+				}
+			],
+			"isPrivate": false,
+			"metaSortKey": -1540737164051.25,
+			"method": "DELETE",
+			"modified": 1556024815388,
+			"name": "delete_course",
+			"parameters": [],
+			"parentId": "fld_1529d2614c0c4ee88da74a42a634aa61",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingMaxTimelineDataSize": 1000,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "http://127.0.0.1:5000/api/courses/81",
+			"_type": "request"
+		},
+		{
+			"_id": "req_03da5e0ad2b04920b1dc16327a468be8",
+			"authentication": {},
+			"body": {},
+			"created": 1540125980927,
+			"description": "Get information for current course.",
+			"headers": [
+				{
+					"disabled": true,
+					"id": "pair_656d00d72f67491886cec2fce014d41c",
+					"name": "Authorization",
+					"value": "{{ token  }}"
+				},
+				{
+					"disabled": true,
+					"id": "pair_725cd0b443d24c0a8398749b9b77e68b",
+					"name": "Authorization",
+					"value": "{{ token2  }}"
+				},
+				{
+					"disabled": false,
+					"id": "pair_971451d1f42241828166656fc0ba773f",
+					"name": "Authorization",
+					"value": "{{ token3 }}"
+				}
+			],
+			"isPrivate": false,
+			"metaSortKey": -1540737164107.5,
+			"method": "GET",
+			"modified": 1551968948620,
+			"name": "get_current_course",
+			"parameters": [],
+			"parentId": "fld_1529d2614c0c4ee88da74a42a634aa61",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingMaxTimelineDataSize": 1000,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "http://127.0.0.1:5000/api/courses/4",
+			"_type": "request"
+		},
+		{
+			"_id": "req_122f3d89c61746a5999af8c2efa47da6",
+			"authentication": {},
+			"body": {
+				"mimeType": "application/json",
+				"text": "{\n\t\"name\": \"moderator_changes\",\n\t\"description\": \"moderator_changes\",\n\t\"price\": 30.2\n}"
+			},
+			"created": 1540130314419,
+			"description": "Change information for course(available only for course owner).",
+			"headers": [
+				{
+					"disabled": false,
+					"id": "pair_ccd9aaaae518430193f6c7b4312c0875",
+					"name": "Content-Type",
+					"value": "application/json"
+				},
+				{
+					"disabled": false,
+					"id": "pair_14e698e717eb4488af2fe6c864fc3b3a",
+					"name": "Authorization",
+					"value": "{{ token  }}"
+				},
+				{
+					"disabled": true,
+					"id": "pair_6205bfde245b4621bc6aab3cb6a12e45",
+					"name": "Authorization",
+					"value": "{{ token2  }}"
+				},
+				{
+					"disabled": true,
+					"id": "pair_031e48e0c8104b828af6d084c7020635",
+					"name": "Authorization",
+					"value": "{{ token3 }}"
+				}
+			],
+			"isPrivate": false,
+			"metaSortKey": -1540737164082.5,
+			"method": "PUT",
+			"modified": 1553080416714,
+			"name": "update_course",
+			"parameters": [],
+			"parentId": "fld_1529d2614c0c4ee88da74a42a634aa61",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingMaxTimelineDataSize": 1000,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "http://127.0.0.1:5000/api/courses/74",
+			"_type": "request"
+		},
+		{
+			"_id": "req_300dc37192284abfbc5f3673e7190407",
+			"authentication": {},
+			"body": {
+				"mimeType": "application/json",
+				"text": "{\n\t\"active\": true\n}"
+			},
+			"created": 1546870006779,
+			"description": "Required argument:\n\n\t\t\"active\" = bool - True / False",
+			"headers": [
+				{
+					"id": "pair_87b7f78f9d0b43d9bf9391e49d9fbcf9",
+					"name": "Content-Type",
+					"value": "application/json"
+				},
+				{
+					"disabled": true,
+					"id": "pair_315d2281e104477bb218bb4c5715af8f",
+					"name": "Authorization",
+					"value": "{{ token  }}"
+				},
+				{
+					"disabled": true,
+					"id": "pair_d60d94b0dc7747c8b65cf0ca14306072",
+					"name": "Authorization",
+					"value": "{{ token2  }}"
+				},
+				{
+					"id": "pair_310110935da34154b644c982552bf60b",
+					"name": "Authorization",
+					"value": "{{ token3 }}"
+				}
+			],
+			"isPrivate": false,
+			"metaSortKey": -1546870006779,
+			"method": "PUT",
+			"modified": 1555077447721,
+			"name": "set_course_active_unactive",
+			"parameters": [],
+			"parentId": "fld_1529d2614c0c4ee88da74a42a634aa61",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingMaxTimelineDataSize": 1000,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "http://127.0.0.1:5000/api/courses/5/activate",
+			"_type": "request"
+		},
+		{
+			"_id": "req_ce9f32489d2d4133b38d983a1f4e5c56",
+			"authentication": {},
+			"body": {
+				"mimeType": "application/json",
+				"text": "{\n\t\"status\": \"closed\",\n\t\"reason\": \"ReasonReason\"\n}"
+			},
+			"created": 1548515853293,
+			"description": "Request available only for admin\nRequired argument \"status\":\n\tvalues:\n\t\n\t\t\t\"close\" - only for courses with status \"open\"\n\t\t\t\t\t- \"reason\" required argument if status == \"close\"\n\t\t\n\t\t\t\"waiting_approval\"\n\t\t\t\"rejected\"\n\t\t\t\"open\"\n\t\t",
+			"headers": [
+				{
+					"id": "pair_d650d444627142d6b0c7e720b1983f1e",
+					"name": "Content-Type",
+					"value": "application/json"
+				},
+				{
+					"disabled": true,
+					"id": "pair_4b07695eddc043cdb51ac40cae78510a",
+					"name": "Authorization",
+					"value": "{{ token  }}"
+				},
+				{
+					"disabled": true,
+					"id": "pair_ceb95ffcb15e477eb2abc349b80de5f6",
+					"name": "Authorization",
+					"value": "{{ token2  }}"
+				},
+				{
+					"disabled": false,
+					"id": "pair_196e09fc85c3416ab911cfb320bfa33f",
+					"name": "Authorization",
+					"value": "{{ token3 }}"
+				}
+			],
+			"isPrivate": false,
+			"metaSortKey": -1548515853293,
+			"method": "PUT",
+			"modified": 1555077445976,
+			"name": "put_course_status",
+			"parameters": [],
+			"parentId": "fld_1529d2614c0c4ee88da74a42a634aa61",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingMaxTimelineDataSize": 1000,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "http://127.0.0.1:5000/api/courses/5/status",
+			"_type": "request"
+		},
+		{
+			"_id": "req_e9265c2bbf0348c9a8ae6aa87033e357",
+			"authentication": {},
+			"body": {},
+			"created": 1552325341132,
+			"description": "",
+			"headers": [],
+			"isPrivate": false,
+			"metaSortKey": -1552325341132,
+			"method": "GET",
+			"modified": 1555944856453,
+			"name": "NonAuthCourses",
+			"parameters": [],
+			"parentId": "fld_1529d2614c0c4ee88da74a42a634aa61",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingMaxTimelineDataSize": 1000,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "http://127.0.0.1:5000/api/courses/index",
+			"_type": "request"
+		},
+		{
+			"_id": "req_0ae5f1fe3ca746509f0b8b4a900b32a4",
+			"authentication": {},
+			"body": {},
+			"created": 1540647977554,
+			"description": "Get your own user information.",
+			"headers": [
+				{
+					"disabled": true,
+					"id": "pair_d5353e881a974a32b1dd7c6a640189c7",
+					"name": "Authorization",
+					"value": "{{ token  }}"
+				},
+				{
+					"disabled": true,
+					"id": "pair_6e161d51e0e74cda93e5869f9f156ac3",
+					"name": "Authorization",
+					"value": "{{ token2  }}"
+				},
+				{
+					"id": "pair_b2b41f15fad04a06b193ea4d842b4a2b",
+					"name": "Authorization",
+					"value": "{{ token3  }}"
+				}
+			],
+			"isPrivate": false,
+			"metaSortKey": -1542111296708,
+			"method": "GET",
+			"modified": 1551104252216,
+			"name": "self_profile_info",
+			"parameters": [],
+			"parentId": "fld_f9d2067c52cb4aac9611413dbd3bb3d3",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingMaxTimelineDataSize": 1000,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": false,
+			"url": "http://127.0.0.1:5000/api/users/me",
+			"_type": "request"
+		},
+		{
+			"_id": "req_1a42c835e85d4bb2a34028dcdd477fd4",
+			"authentication": {},
+			"body": {
+				"mimeType": "application/json",
+				"text": "{\n\t\"role_id\": 3\n}"
+			},
+			"created": 1542100737850,
+			"description": "Set role to user (teacher/studedent).",
+			"headers": [
+				{
+					"id": "pair_671d451ae1d44aedbd10b0e7f32ce823",
+					"name": "Content-Type",
+					"value": "application/json"
+				},
+				{
+					"id": "pair_a5d96ef79f3e4739b760a4674a6b65f7",
+					"name": "Authorization",
+					"value": "{{ token }}"
+				}
+			],
+			"isPrivate": false,
+			"metaSortKey": -1542100737850,
+			"method": "PUT",
+			"modified": 1549115460330,
+			"name": "set_user_role",
+			"parameters": [],
+			"parentId": "fld_f9d2067c52cb4aac9611413dbd3bb3d3",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingMaxTimelineDataSize": 1000,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "http://127.0.0.1:5000/api/user/me",
+			"_type": "request"
+		},
+		{
+			"_id": "req_3c18650ce0e84b78a6343f65e0c8a9db",
+			"authentication": {},
+			"body": {},
+			"created": 1544031782335,
+			"description": "Get user info without privacy information.",
+			"headers": [
+				{
+					"disabled": true,
+					"id": "pair_44211f828afe446d8506bfbe095b7d31",
+					"name": "Authorization",
+					"value": "{{ token  }}"
+				},
+				{
+					"disabled": true,
+					"id": "pair_e1706d29799c4f1d989e18defe4d36f9",
+					"name": "Authorization",
+					"value": "{{ token2  }}"
+				},
+				{
+					"disabled": false,
+					"id": "pair_f3371571526648988e1a3270012c1f5a",
+					"name": "Authorization",
+					"value": "{{ token3 }}"
+				}
+			],
+			"isPrivate": false,
+			"metaSortKey": -1542106017279,
+			"method": "GET",
+			"modified": 1555080173439,
+			"name": "user_profile_info",
+			"parameters": [],
+			"parentId": "fld_f9d2067c52cb4aac9611413dbd3bb3d3",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingMaxTimelineDataSize": 1000,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "http://127.0.0.1:5000/api/users/19",
+			"_type": "request"
+		},
+		{
+			"_id": "req_5e944449bae24388835ce1ab0d8d9087",
+			"authentication": {},
+			"body": {},
+			"created": 1545311530290,
+			"description": "Available arguments:\n\n\t?r=teacher (return all users with teacher role)\n\n\t?r=student (return all users with student role)\n\nWithout arguments request will return list of all users in the system.\n\n\n\t?count=1 (get count of all users in platform)\n\t\t\n\t\t\t&role_id = 3, 4 (get all counts of teahcers or students)\n\t\t\t",
+			"headers": [
+				{
+					"disabled": true,
+					"id": "pair_17382b93a4ef4e01904ec347a17233dd",
+					"name": "Authorization",
+					"value": "{{ token  }}"
+				},
+				{
+					"disabled": true,
+					"id": "pair_8eb353480e34419981be5fdede230469",
+					"name": "Authorization",
+					"value": "{{ token2  }}"
+				},
+				{
+					"disabled": false,
+					"id": "pair_bffebae0323c4cfbbc59f6e356929b25",
+					"name": "Authorization",
+					"value": "{{ token3 }}"
+				}
+			],
+			"isPrivate": false,
+			"metaSortKey": -1545311530290,
+			"method": "GET",
+			"modified": 1553594275743,
+			"name": "users_info",
+			"parameters": [],
+			"parentId": "fld_f9d2067c52cb4aac9611413dbd3bb3d3",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingMaxTimelineDataSize": 1000,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "http://127.0.0.1:5000/api/users?count=1",
+			"_type": "request"
+		},
+		{
+			"_id": "req_c02be469c9ee4ea4a5bb99e926c00c95",
+			"authentication": {},
+			"body": {
+				"mimeType": "application/json",
+				"text": "{\n\t\"name\": 9,\n\t\"description\": \"ne6to si tam\",\n\t\"format\": \"2\",\n\t\"test\": { \n\t\t\"questions\": [\n        {\n            \"id\": 0,\n            \"text\": \"Some question\",\n            \"answers\": [\n                {\n                    \"id\": 0,\n                    \"text\": \"Some answer\"\n                },\n                {\n                    \"id\": 1,\n                    \"text\": \"Some other answer\"\n                },\n                {\n                    \"id\": 2,\n                    \"text\": \"Some other answer\"\n                }\n            ]\n        },\n        {\n            \"id\": 1,\n            \"text\": \"Some question\",\n            \"answers\": [\n                {\n                    \"id\": 0,\n                    \"text\": \"Some answer\"\n                },\n                {\n                    \"id\": 1,\n                    \"text\": \"Some other answer\"\n                },\n                {\n                    \"id\": 2,\n                    \"text\": \"Some other answer\"\n                }\n            ]\n        },\n\t\t\t \t{\n            \"id\": 2,\n            \"text\": \"Some question\",\n            \"answers\": [\n                {\n                    \"id\": 0,\n                    \"text\": \"Some answer\"\n                },\n                {\n                    \"id\": 1,\n                    \"text\": \"Some other answer\"\n                },\n                {\n                    \"id\": 2,\n                    \"text\": \"Some other answer\"\n                },\n\t\t\t\t\t\t\t\t{\n                    \"id\": 3,\n                    \"text\": \"Some other answer\"\n                }\n            ]\n        },\n\t\t\t\t{\n            \"id\": 3,\n            \"text\": \"Some question\",\n            \"answers\": [\n                {\n                    \"id\": 0,\n                    \"text\": \"Some answer\"\n                },\n                {\n                    \"id\": 1,\n                    \"text\": \"Some other answer\"\n                },\n                {\n                    \"id\": 2,\n                    \"text\": \"Some other answer\"\n                },\n\t\t\t\t\t\t\t\t{\n                    \"id\": 2,\n                    \"text\": \"Some other answer\"\n                }\n            ]\n        }\n    ],\n\t\"correctAnswers\": {\n        \"0\": [ 1 ],\n        \"1\": [ 0, 1 ],\n\t\t\t\t\"2\": [ 1, 2 ],\n\t\t\t\t\"3\": [ 0, 1, 2 ]\n  \t},\n\t\"computing_system\": \"1\"\n\t}\n}"
+			},
+			"created": 1540737152657,
+			"description": "Create new task for current course:\n\"format\" parameter in json body can get two values:\n\n\n\t\t\t\t\"format\" = 1 - if task is test format\n\t\t\t\t\"format\" = 2 - if task is open end format\n\t\t\t\t\n\n\"computing_system\" in \"test\" parameter can get two values:\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\"computing_system\" = 1 - if system is without removing points for wrong answers\n\t\t\t\t\"computing_system\" = 2 - if system is with removing points for wrong answers\n\n\nREQUEST JSON EXAMPLE: \n\n{\n\t\"name\": 9,\n\t\"description\": \"ne6to si tam\",\n\t\"format\": \"1\",\n\t\"test\": { \n\t\t\"questions\": [\n        {\n            \"id\": 0,\n            \"text\": \"Some question\",\n            \"answers\": [\n                {\n                    \"id\": 0,\n                    \"text\": \"Some answer\"\n                },\n                {\n                    \"id\": 1,\n                    \"text\": \"Some other answer\"\n                },\n                {\n                    \"id\": 2,\n                    \"text\": \"Some other answer\"\n                }\n            ]\n        },\n        {\n            \"id\": 1,\n            \"text\": \"Some question\",\n            \"answers\": [\n                {\n                    \"id\": 0,\n                    \"text\": \"Some answer\"\n                },\n                {\n                    \"id\": 1,\n                    \"text\": \"Some other answer\"\n                },\n                {\n                    \"id\": 2,\n                    \"text\": \"Some other answer\"\n                }\n            ]\n        },\n\t\t\t \t{\n            \"id\": 2,\n            \"text\": \"Some question\",\n            \"answers\": [\n                {\n                    \"id\": 0,\n                    \"text\": \"Some answer\"\n                },\n                {\n                    \"id\": 1,\n                    \"text\": \"Some other answer\"\n                },\n                {\n                    \"id\": 2,\n                    \"text\": \"Some other answer\"\n                }\n            ]\n        }\n    ],\n\t\"correctAnswers\": {\n        \"0\": [ 1 ],\n        \"1\": [ 0 ],\n\t\t\t\t\"2\": [ 1, 2 ]\n  \t},\n\t\"computing_system\": \"2\"\n\t}\n}",
+			"headers": [
+				{
+					"id": "pair_18efc8198d8d4ec88858db51bc4104af",
+					"name": "Content-Type",
+					"value": "application/json"
+				},
+				{
+					"disabled": false,
+					"id": "pair_1a7d85d861d7418a931fcd8124da9110",
+					"name": "Authorization",
+					"value": "{{ token  }}"
+				},
+				{
+					"disabled": true,
+					"id": "pair_3c942891d20a4b96b7d02353f0b3aff3",
+					"name": "Authorization",
+					"value": "{{ token2  }}"
+				}
+			],
+			"isPrivate": false,
+			"metaSortKey": -1540737152832,
+			"method": "POST",
+			"modified": 1555932712385,
+			"name": "add_task",
+			"parameters": [],
+			"parentId": "fld_27b112dfe2974ba7840caa66d9abefd4",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingMaxTimelineDataSize": 1000,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "http://127.0.0.1:5000/api/courses/85/tasks",
+			"_type": "request"
+		},
+		{
+			"_id": "req_b2e5870ddde1426f90374138dca61906",
+			"authentication": {},
+			"body": {},
+			"created": 1540739966398,
+			"description": "GET all tasks for current course",
+			"headers": [
+				{
+					"disabled": false,
+					"id": "pair_c6f85e3da19142548be0ac306bf2d951",
+					"name": "Authorization",
+					"value": "{{ token }}"
+				},
+				{
+					"disabled": true,
+					"id": "pair_5ad05552b5534583b5563d8246c63dd9",
+					"name": "Authorization",
+					"value": "{{ token2  }}"
+				},
+				{
+					"disabled": true,
+					"id": "pair_9ae621e8223248fca64cc2f0f433d67f",
+					"name": "Authorization",
+					"value": "{{ token3 }}"
+				}
+			],
+			"isPrivate": false,
+			"metaSortKey": -1540737152857,
+			"method": "GET",
+			"modified": 1553592977205,
+			"name": "get_tasks",
+			"parameters": [],
+			"parentId": "fld_27b112dfe2974ba7840caa66d9abefd4",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingMaxTimelineDataSize": 1000,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "http://127.0.0.1:5000/api/courses/78/tasks",
+			"_type": "request"
+		},
+		{
+			"_id": "req_53396f317f764ea6ad274bedb6e7c930",
+			"authentication": {},
+			"body": {},
+			"created": 1540743788110,
+			"description": "",
+			"headers": [
+				{
+					"disabled": true,
+					"id": "pair_2066cd0752af47ef9f6d394d2c3c58d7",
+					"name": "Authorization",
+					"value": "{{ token  }}"
+				},
+				{
+					"disabled": true,
+					"id": "pair_6a6feb61b952432f98acec89bd6858a4",
+					"name": "Authorization",
+					"value": "{{ token2  }}"
+				},
+				{
+					"disabled": false,
+					"id": "pair_d1faf6d582874395855f45fb5793db6c",
+					"name": "Authorization",
+					"value": "{{ token3 }}"
+				}
+			],
+			"isPrivate": false,
+			"metaSortKey": -1540737152757,
+			"method": "DELETE",
+			"modified": 1552669074247,
+			"name": "delete_task",
+			"parameters": [],
+			"parentId": "fld_27b112dfe2974ba7840caa66d9abefd4",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingMaxTimelineDataSize": 1000,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "http://127.0.0.1:5000/api/courses/74/tasks/29",
+			"_type": "request"
+		},
+		{
+			"_id": "req_ff6cb9d24f184de4ae3ef7eb1a1bbf9e",
+			"authentication": {},
+			"body": {
+				"mimeType": "application/json",
+				"text": "{\n\t\"name\": \"epepepeepepep\",\n\t\"description\": \"susano\",\n\t\"test\": {\n\t\t\"questions\": [\n        {\n            \"id\": 0,\n            \"text\": \"Some question\",\n            \"answers\": [\n                {\n                    \"id\": 0,\n                    \"text\": \"Some answer\"\n                },\n                {\n                    \"id\": 1,\n                    \"text\": \"Some other answer\"\n                }\n            ]\n        },\n        {\n            \"id\": 1,\n            \"text\": \"Some question\",\n            \"answers\": [\n                {\n                    \"id\": 0,\n                    \"text\": \"Some answer\"\n                },\n                {\n                    \"id\": 1,\n                    \"text\": \"Some other answer\"\n                }\n            ]\n        },\n\t\t\t\t{\n            \"id\": 2,\n            \"text\": \"Some question\",\n            \"answers\": [\n                {\n                    \"id\": 0,\n                    \"text\": \"Some answer\"\n                },\n                {\n                    \"id\": 1,\n                    \"text\": \"Some other answer\"\n                }\n            ]\n        },\n        {\n            \"id\": 3,\n            \"text\": \"Some question\",\n            \"answers\": [\n                {\n                    \"id\": 0,\n                    \"text\": \"Some answer\"\n                },\n                {\n                    \"id\": 1,\n                    \"text\": \"Some other answer\"\n                }\n            ]\n        }\n    ],\n\t\"correctAnswers\": {\n        \"0\": [ 1 ],\n        \"1\": [ 0, 1 ],\n\t\t\t\t\"2\": [ 0 ],\n\t\t\t\t\"3\": [ 1 ]\n  \t}\n\t}\n}"
+			},
+			"created": 1540848721745,
+			"description": "",
+			"headers": [
+				{
+					"disabled": false,
+					"id": "pair_f0b65cf8873f49a1b3fd10817ea7eb80",
+					"name": "Content-Type",
+					"value": "application/json"
+				},
+				{
+					"disabled": true,
+					"id": "pair_1328e4fd54454c1a913710047b0008c8",
+					"name": "Authorization",
+					"value": "{{ token  }}"
+				},
+				{
+					"disabled": true,
+					"id": "pair_5d8e7d3714c749a499777d93698ebdb2",
+					"name": "Authorization",
+					"value": "{{ token2  }}"
+				},
+				{
+					"disabled": false,
+					"id": "pair_82aacc932715465c91957495723d8e0e",
+					"name": "Authorization",
+					"value": "{{ token3 }}"
+				}
+			],
+			"isPrivate": false,
+			"metaSortKey": -1540737152807,
+			"method": "PUT",
+			"modified": 1555932713946,
+			"name": "update_task",
+			"parameters": [],
+			"parentId": "fld_27b112dfe2974ba7840caa66d9abefd4",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingMaxTimelineDataSize": 1000,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "http://127.0.0.1:5000/api/courses/74/tasks/29",
+			"_type": "request"
+		},
+		{
+			"_id": "req_14f6bb2301454cde96de8d3b1fe9705c",
+			"authentication": {},
+			"body": {},
+			"created": 1543250612217,
+			"description": "GET current task for current course",
+			"headers": [
+				{
+					"disabled": true,
+					"id": "pair_fb46bcfd3fb34563bc7a3e13f83daf81",
+					"name": "Authorization",
+					"value": "{{ token  }}"
+				},
+				{
+					"disabled": false,
+					"id": "pair_b4a75e7dce15466c8d97ce97dc4ffccf",
+					"name": "Authorization",
+					"value": "{{ token2  }}"
+				},
+				{
+					"disabled": true,
+					"id": "pair_188d09653a9246959ebc998c507141bc",
+					"name": "Authorization",
+					"value": "{{ token3 }}"
+				}
+			],
+			"isPrivate": false,
+			"metaSortKey": -1540737152844.5,
+			"method": "GET",
+			"modified": 1552903998383,
+			"name": "get_current_task",
+			"parameters": [],
+			"parentId": "fld_27b112dfe2974ba7840caa66d9abefd4",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingMaxTimelineDataSize": 1000,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "http://127.0.0.1:5000/api/courses/73/tasks/32",
+			"_type": "request"
+		},
+		{
+			"_id": "req_a1f7a31839674c84a48bfc4a8884acab",
+			"authentication": {},
+			"body": {
+				"mimeType": "application/json",
+				"text": "{\n\t\"name\": \"Grupataaaa 2\",\n\t\"max_members\": 10\n}"
+			},
+			"created": 1541422740335,
+			"description": "",
+			"headers": [
+				{
+					"id": "pair_3f64da8a13674e30991dd6f209ced1f6",
+					"name": "Content-Type",
+					"value": "application/json"
+				},
+				{
+					"disabled": false,
+					"id": "pair_cd13d8c83f2a4f8fb84bc71ee0c587f9",
+					"name": "Authorization",
+					"value": "{{ token }}"
+				},
+				{
+					"disabled": true,
+					"id": "pair_3c0391d244c041418fd1a73b6d9a280e",
+					"name": "Authorization",
+					"value": "{{ token2  }}"
+				}
+			],
+			"isPrivate": false,
+			"metaSortKey": -1541422740335,
+			"method": "POST",
+			"modified": 1555932561280,
+			"name": "post_group",
+			"parameters": [],
+			"parentId": "fld_e3a0e56cda4042fd802eb30098f8871a",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingMaxTimelineDataSize": 1000,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "http://127.0.0.1:5000/api/courses/85/groups",
+			"_type": "request"
+		},
+		{
+			"_id": "req_232f9cdac00f4e1e8c78c1383ea33e8d",
+			"authentication": {},
+			"body": {},
+			"created": 1541429343439,
+			"description": "",
+			"headers": [
+				{
+					"disabled": false,
+					"id": "pair_23417066b2014a8ea5710445a985a4a7",
+					"name": "Authorization",
+					"value": "{{ token  }}"
+				},
+				{
+					"disabled": true,
+					"id": "pair_54326c82f0d241e4a20aaaf78792f4cb",
+					"name": "Authorization",
+					"value": "{{ token2  }}"
+				},
+				{
+					"disabled": true,
+					"id": "pair_0daa81eb2d994fc79e024d55bd8f62d6",
+					"name": "Authorization",
+					"value": "{{ token3  }}"
+				}
+			],
+			"isPrivate": false,
+			"metaSortKey": -1542720878849,
+			"method": "GET",
+			"modified": 1555932575958,
+			"name": "get_all_course_groups",
+			"parameters": [],
+			"parentId": "fld_e3a0e56cda4042fd802eb30098f8871a",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingMaxTimelineDataSize": 1000,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "http://127.0.0.1:5000/api/courses/85/groups",
+			"_type": "request"
+		},
+		{
+			"_id": "req_ff0b74b651764cdc98028c626d29f9b6",
+			"authentication": {},
+			"body": {},
+			"created": 1541430245604,
+			"description": "",
+			"headers": [
+				{
+					"disabled": true,
+					"id": "pair_4ee09f5e23984dc69832d28eb834dcb8",
+					"name": "Authorization",
+					"value": "{{ token  }}"
+				},
+				{
+					"disabled": false,
+					"id": "pair_71aae54e2db54f5f931864d6985ab562",
+					"name": "Authorization",
+					"value": "{{ token2  }}"
+				},
+				{
+					"id": "pair_f1d061f85cfc4301b2da0252be8fda4e",
+					"name": "",
+					"value": "{{ token3  }}"
+				}
+			],
+			"isPrivate": false,
+			"metaSortKey": -1542720878824,
+			"method": "GET",
+			"modified": 1549116132132,
+			"name": "get_current_group",
+			"parameters": [],
+			"parentId": "fld_e3a0e56cda4042fd802eb30098f8871a",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingMaxTimelineDataSize": 1000,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "http://127.0.0.1:5000/api/courses/4/groups/4",
+			"_type": "request"
+		},
+		{
+			"_id": "req_443e429acafc44bcaee0b98d168863b5",
+			"authentication": {},
+			"body": {
+				"mimeType": "application/json",
+				"text": "{\n\t\"name\": \"Admin Change this\",\n\t\"max_members\": 20\n}"
+			},
+			"created": 1541430422378,
+			"description": "",
+			"headers": [
+				{
+					"id": "pair_6be2abffdf77475bb4048d621a1b66e7",
+					"name": "Content-Type",
+					"value": "application/json"
+				},
+				{
+					"disabled": true,
+					"id": "pair_6a5d3db94d00439babcabfa0e37a5b50",
+					"name": "Authorization",
+					"value": "{{ token }}"
+				},
+				{
+					"disabled": true,
+					"id": "pair_0eccc5a32d764e4c99d5f879ea12fd57",
+					"name": "Authorization",
+					"value": "{{ token2  }}"
+				},
+				{
+					"disabled": false,
+					"id": "pair_2aa1486c022947f59d99d4c246d0f317",
+					"name": "Authorization",
+					"value": "{{ token3 }}"
+				}
+			],
+			"isPrivate": false,
+			"metaSortKey": -1541422740285,
+			"method": "PUT",
+			"modified": 1552664404063,
+			"name": "put_current_group",
+			"parameters": [],
+			"parentId": "fld_e3a0e56cda4042fd802eb30098f8871a",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingMaxTimelineDataSize": 1000,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "http://127.0.0.1:5000/api/courses/74/groups/46",
+			"_type": "request"
+		},
+		{
+			"_id": "req_fa5b6b24b339441daf29925d0a1194b6",
+			"authentication": {},
+			"body": {},
+			"created": 1541437284252,
+			"description": "",
+			"headers": [
+				{
+					"id": "pair_63230e80b5bd47e8bb664e61e8105d2e",
+					"name": "Authorization",
+					"value": "{{ token  }}"
+				},
+				{
+					"disabled": true,
+					"id": "pair_3eb9237869474de8b6ccdf76f9a224e9",
+					"name": "Authorization",
+					"value": "{{ token2  }}"
+				}
+			],
+			"isPrivate": false,
+			"metaSortKey": -1542720878811.5,
+			"method": "GET",
+			"modified": 1553091057742,
+			"name": "get_current_board",
+			"parameters": [],
+			"parentId": "fld_e3a0e56cda4042fd802eb30098f8871a",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingMaxTimelineDataSize": 1000,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "http://127.0.0.1:5000/api/courses/1/groups/1/board",
+			"_type": "request"
+		},
+		{
+			"_id": "req_a62932097e364c1099bc7e9792a59b87",
+			"authentication": {},
+			"body": {
+				"mimeType": "application/json",
+				"text": "{\n\t\"is_active\": false,\n\t\"task_id\": 9\n }"
+			},
+			"created": 1541437998349,
+			"description": "available arguments in JSON:\n\"is_active\", \"task_id\"\nArguments are not required!",
+			"headers": [
+				{
+					"id": "pair_9efa1bef38a64a83a852b6364bd5a9f5",
+					"name": "Content-Type",
+					"value": "application/json"
+				},
+				{
+					"disabled": false,
+					"id": "pair_c6a7b6033c524f1e8d85b767471bd1e2",
+					"name": "Authorization",
+					"value": "{{ token  }}"
+				},
+				{
+					"disabled": true,
+					"id": "pair_8a080310500c44128a42868011902c88",
+					"name": "Authorization",
+					"value": "{{ token2  }}"
+				}
+			],
+			"isPrivate": false,
+			"metaSortKey": -1541422740247.5,
+			"method": "PUT",
+			"modified": 1551709003160,
+			"name": "put_board_on_off",
+			"parameters": [],
+			"parentId": "fld_e3a0e56cda4042fd802eb30098f8871a",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingMaxTimelineDataSize": 1000,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "http://127.0.0.1:5000/api/courses/4/groups/3/board",
+			"_type": "request"
+		},
+		{
+			"_id": "req_ce0fb170f9204b85b69f5c08c5a4be8e",
+			"authentication": {},
+			"body": {},
+			"created": 1541856708145,
+			"description": "",
+			"headers": [
+				{
+					"disabled": true,
+					"id": "pair_b42c89ae3ac74f82a0d812e0e73072fa",
+					"name": "Authorization",
+					"value": "{{ token  }}"
+				},
+				{
+					"disabled": true,
+					"id": "pair_b38881df09194a39ad19ae5c897d4116",
+					"name": "Authorization",
+					"value": "{{ token2  }}"
+				},
+				{
+					"disabled": false,
+					"id": "pair_803aec8b814746acbd2fcdb0cee3a8cb",
+					"name": "Authorization",
+					"value": "{{ token3  }}"
+				}
+			],
+			"isPrivate": false,
+			"metaSortKey": -1541422740185,
+			"method": "DELETE",
+			"modified": 1552664424786,
+			"name": "delete_group",
+			"parameters": [],
+			"parentId": "fld_e3a0e56cda4042fd802eb30098f8871a",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingMaxTimelineDataSize": 1000,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "http://127.0.0.1:5000/api/courses/74/groups/46",
+			"_type": "request"
+		},
+		{
+			"_id": "req_fd3435e070d74ec08e08403f11f885d4",
+			"authentication": {},
+			"body": {},
+			"created": 1542720423113,
+			"description": "",
+			"headers": [
+				{
+					"disabled": true,
+					"id": "pair_720c9853ab12482291aa6a0e07bc8447",
+					"name": "Authorization",
+					"value": "{{ token  }}"
+				},
+				{
+					"disabled": false,
+					"id": "pair_4f7d9edb56ac48fbb3dcd89d3f1580a9",
+					"name": "Authorization",
+					"value": "{{ token2  }}"
+				}
+			],
+			"isPrivate": false,
+			"metaSortKey": -1542720878805.25,
+			"method": "GET",
+			"modified": 1543672811485,
+			"name": "get_board_data",
+			"parameters": [],
+			"parentId": "fld_e3a0e56cda4042fd802eb30098f8871a",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingMaxTimelineDataSize": 1000,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "http://127.0.0.1:5000/api/courses/4/groups/3/board/data",
+			"_type": "request"
+		},
+		{
+			"_id": "req_7d98d0c0f5804933bdf2728851a719cf",
+			"authentication": {},
+			"body": {},
+			"created": 1542720878799,
+			"description": "",
+			"headers": [
+				{
+					"disabled": true,
+					"id": "pair_23a33a8ce7364ed2880d1e2365d358db",
+					"name": "Authorization",
+					"value": "{{ token  }}"
+				},
+				{
+					"disabled": false,
+					"id": "pair_0d302dedf6b344e1b492c48a7a1e4fea",
+					"name": "Authorization",
+					"value": "{{ token2  }}"
+				}
+			],
+			"isPrivate": false,
+			"metaSortKey": -1542720878799,
+			"method": "GET",
+			"modified": 1551709003818,
+			"name": "get_board_snapshot_data",
+			"parameters": [],
+			"parentId": "fld_e3a0e56cda4042fd802eb30098f8871a",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingMaxTimelineDataSize": 1000,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "http://127.0.0.1:5000/api/courses/4/groups/3/board/snapshot",
+			"_type": "request"
+		},
+		{
+			"_id": "req_900814a253a84d63a39aa16bd41eab1f",
+			"authentication": {},
+			"body": {
+				"mimeType": "application/json",
+				"text": "{\n\t\"board_data\": \"vvvvvvvvvvvvvvvvvvvvvvvvuivvvvvvvvvvvvvvvvvvvvvvvvuivvvvvvvvvvvvvvvvvvvvvvvvuivvvvvvvvvvvvvvvvvvvvvvvvuivvvvvvvvvvvvvvvvvvvvvvvvuivvvvvvvvvvvvvvvvvvvvvvvvuivvvvvvvvvvvvvvvvvvvvvvvvuivvvvvvvvvvvvvvvvvvvvvvvvuivvvvvvvvvvvvvvvvvvvvvvvvuivvvvvvvvvvvvvvvvvvvvvvvvuivvvvvvvvvvvvvvvvvvvvvvvvuivvvvvvvvvvvvvvvvvvvvvvvvuivvvvvvvvvvvvvvvvvvvvvvvvuivvvvvvvvvvvvvvvvvvvvvvvvuivvvvvvvvvvvvvvvvvvvvvvvvuivvvvvvvvvvvvvvvvvvvvvvvvuivvvvvvvvvvvvvvvvvvvvvvvvuivvvvvvvvvvvvvvvvvvvvvvvvuivvvvvvvvvvvvvvvvvvvvvvvvuivvvvvvvvvvvvvvvvvvvvvvvvuivvvvvvvvvvvvvvvvvvvvvvvvuivvvvvvvvvvvvvvvvvvvvvvvvuivvvvvvvvvvvvvvvvvvvvvvvvuivvvvvvvvvvvvvvvvvvvvvvvvuivvvvvvvvvvvvvvvvvvvvvvvvuivvvvvvvvvvvvvvvvvvvvvvvvuivvvvvvvvvvvvvvvvvvvvvvvvuivvvvvvvvvvvvvvvvvvvvvvvvuivvvvvvvvvvvvvvvvvvvvvvvvuivvvvvvvvvvvvvvvvvvvvvvvvuivvvvvvvvvvvvvvvvvvvvvvvvuivvvvvvvvvvvvvvvvvvvvvvvvuivvvvvvvvvvvvvvvvvvvvvvvvuivvvvvvvvvvvvvvvvvvvvvvvvuivvvvvvvvvvvvvvvvvvvvvvvvuivvvvvvvvvvvvvvvvvvvvvvvvuivvvvvvvvvvvvvvvvvvvvvvvvuivvvvvvvvvvvvvvvvvvvvvvvvuivvvvvvvvvvvvvvvvvvvvvvvvuivvvvvvvvvvvvvvvvvvvvvvvvuivvvvvvvvvvvvvvvvvvvvvvvvuivvvvvvvvvvvvvvvvvvvvvvvvuivvvvvvvvvvvvvvvvvvvvvvvvuivvvvvvvvvvvvvvvvvvvvvvvvuivvvvvvvvvvvvvvvvvvvvvvvvuivvvvvvvvvvvvvvvvvvvvvvvvuivvvvvvvvvvvvvvvvvvvvvvvvuivvvvvvvvvvvvvvvvvvvvvvvvuivvvvvvvvvvvvvvvvvvvvvvvvuivvvvvvvvvvvvvvvvvvvvvvvvuivvvvvvvvvvvvvvvvvvvvvvvvuivvvvvvvvvvvvvvvvvvvvvvvvuivvvvvvvvvvvvvvvvvvvvvvvvuivvvvvvvvvvvvvvvvvvvvvvvvuivvvvvvvvvvvvvvvvvvvvvvvvuivvvvvvvvvvvvvvvvvvvvvvvvuivvvvvvvvvvvvvvvvvvvvvvvvuivvvvvvvvvvvvvvvvvvvvvvvvuivvvvvvvvvvvvvvvvvvvvvvvvuivvvvvvvvvvvvvvvvvvvvvvvvuivvvvvvvvvvvvvvvvvvvvvvvvuivvvvvvvvvvvvvvvvvvvvvvvvuivvvvvvvvvvvvvvvvvvvvvvvvuivvvvvvvvvvvvvvvvvvvvvvvvuivvvvvvvvvvvvvvvvvvvvvvvvuivvvvvvvvvvvvvvvvvvvvvvvvuivvvvvvvvvvvvvvvvvvvvvvvvuivvvvvvvvvvvvvvvvvvvvvvvvuivvvvvvvvvvvvvvvvvvvvvvvvuivvvvvvvvvvvvvvvvvvvvvvvvuivvvvvvvvvvvvvvvvvvvvvvvvuivvvvvvvvvvvvvvvvvvvvvvvvuivvvvvvvvvvvvvvvvvvvvvvvvuivvvvvvvvvvvvvvvvvvvvvvvvuivvvvvvvvvvvvvvvvvvvvvvvvuivvvvvvvvvvvvvvvvvvvvvvvvui\"\n}"
+			},
+			"created": 1542733650259,
+			"description": "",
+			"headers": [
+				{
+					"id": "pair_a70275c181a4405bbfea74bff5d4b830",
+					"name": "Content-Type",
+					"value": "application/json"
+				},
+				{
+					"disabled": false,
+					"id": "pair_b3d7b1f6ac1d43089dacaf0eb646ddef",
+					"name": "Authorization",
+					"value": "{{ token  }}"
+				},
+				{
+					"disabled": true,
+					"id": "pair_a64c475568b0401fa44e422264ad657c",
+					"name": "Authorization",
+					"value": "{{ token2  }}"
+				}
+			],
+			"isPrivate": false,
+			"metaSortKey": -1541422740210,
+			"method": "PUT",
+			"modified": 1543594402583,
+			"name": "put_board_data",
+			"parameters": [],
+			"parentId": "fld_e3a0e56cda4042fd802eb30098f8871a",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingMaxTimelineDataSize": 1000,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "http://127.0.0.1:5000/api/courses/4/groups/3/board/data",
+			"_type": "request"
+		},
+		{
+			"_id": "req_b2aebd4ac21e4556b4350e03429f3819",
+			"authentication": {},
+			"body": {
+				"mimeType": "application/json",
+				"text": "{\n\t\"board_snapshot\": \"ilili\"\n}"
+			},
+			"created": 1542734043094,
+			"description": "",
+			"headers": [
+				{
+					"id": "pair_6fa0407005b24b7fbf0f67e3e2eeb70e",
+					"name": "Content-Type",
+					"value": "application/json"
+				},
+				{
+					"disabled": false,
+					"id": "pair_2f0570c641a84c1c8d15311a1d5cf111",
+					"name": "Authorization",
+					"value": "{{ token  }}"
+				},
+				{
+					"disabled": true,
+					"id": "pair_227006bc09bc481e911ad4f8f560d031",
+					"name": "Authorization",
+					"value": "{{ token2  }}"
+				}
+			],
+			"isPrivate": false,
+			"metaSortKey": -1541422740197.5,
+			"method": "PUT",
+			"modified": 1543594429516,
+			"name": "put_board_snapshot_data",
+			"parameters": [],
+			"parentId": "fld_e3a0e56cda4042fd802eb30098f8871a",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingMaxTimelineDataSize": 1000,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "http://127.0.0.1:5000/api/courses/4/groups/3/board/snapshot",
+			"_type": "request"
+		},
+		{
+			"_id": "req_dc58f3871565445981da5de6a9ed34c5",
+			"authentication": {},
+			"body": {},
+			"created": 1542917833168,
+			"description": "",
+			"headers": [
+				{
+					"disabled": true,
+					"id": "pair_f07308071db84653ae99519ac0bd941f",
+					"name": "Authorization",
+					"value": "{{ token  }}"
+				},
+				{
+					"disabled": false,
+					"id": "pair_815917ea0ec3459faf2002d58551784c",
+					"name": "Authorization",
+					"value": "{{ token2  }}"
+				}
+			],
+			"isPrivate": false,
+			"metaSortKey": -1542720878817.75,
+			"method": "GET",
+			"modified": 1553091058952,
+			"name": "get_course_group_in",
+			"parameters": [],
+			"parentId": "fld_e3a0e56cda4042fd802eb30098f8871a",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingMaxTimelineDataSize": 1000,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "http://127.0.0.1:5000/api/courses/1/groups/in",
+			"_type": "request"
+		},
+		{
+			"_id": "req_f1fab51d66f2474692c6165b0c1eab6b",
+			"authentication": {},
+			"body": {},
+			"created": 1541517953923,
+			"description": "",
+			"headers": [
+				{
+					"disabled": true,
+					"id": "pair_93bb47684b3c4a6b813ce97988303741",
+					"name": "Authorization",
+					"value": "{{ token }}"
+				},
+				{
+					"disabled": true,
+					"id": "pair_c971246fe87d496c8f74b1e99cbb16a9",
+					"name": "Authorization",
+					"value": "{{ token2  }}"
+				},
+				{
+					"disabled": false,
+					"id": "pair_b7acf70477114ee5bff36a82cb19d5f4",
+					"name": "Authorization",
+					"value": "{{ token3  }}"
+				}
+			],
+			"isPrivate": false,
+			"metaSortKey": -1541517953923,
+			"method": "GET",
+			"modified": 1550080000745,
+			"name": "get_all_participants_from_group",
+			"parameters": [],
+			"parentId": "fld_96b0fbdfb24d440b84ce2365eaef96e9",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingMaxTimelineDataSize": 1000,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "http://127.0.0.1:5000/api/courses/3/groups/3/participants",
+			"_type": "request"
+		},
+		{
+			"_id": "req_e40d42dfe15f47bdaad33d119ece21ec",
+			"authentication": {},
+			"body": {
+				"mimeType": "application/json",
+				"text": "{\n\t\"key\": \"7603d8b190c385a2350d6990dc75ad66cf0f483c54b7781df2751375\"\n}"
+			},
+			"created": 1541518359897,
+			"description": "",
+			"headers": [
+				{
+					"id": "pair_6441e6eacc7347659baac4e3c341428e",
+					"name": "Content-Type",
+					"value": "application/json"
+				},
+				{
+					"disabled": true,
+					"id": "pair_ca58784c9ead44e29cd38e5eb9033138",
+					"name": "Authorization",
+					"value": "{{ token  }}"
+				},
+				{
+					"disabled": false,
+					"id": "pair_6208d8c509a84cd0a8b1b345cc484909",
+					"name": "Authorization",
+					"value": "{{ token2  }}"
+				}
+			],
+			"isPrivate": false,
+			"metaSortKey": -1541517953873,
+			"method": "POST",
+			"modified": 1551713442343,
+			"name": "add_participants",
+			"parameters": [],
+			"parentId": "fld_96b0fbdfb24d440b84ce2365eaef96e9",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingMaxTimelineDataSize": 1000,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "http://127.0.0.1:5000/api/courses/25/groups/18/participants",
+			"_type": "request"
+		},
+		{
+			"_id": "req_dafbb23ed11e48a2bdf7a470decebf76",
+			"authentication": {},
+			"body": {},
+			"created": 1541523249117,
+			"description": "If User is owner of the cours he can delete any members from course register. If User only participating in course can delete only self from register.",
+			"headers": [
+				{
+					"disabled": false,
+					"id": "pair_e84e86455cd54aefb9b7aace9df0a82a",
+					"name": "Authorization",
+					"value": "{{ token  }}"
+				},
+				{
+					"disabled": true,
+					"id": "pair_ceb6469e9d2b46879c7cf713a8132e3b",
+					"name": "Authorization",
+					"value": "{{ token2  }}"
+				}
+			],
+			"isPrivate": false,
+			"metaSortKey": -1541517953823,
+			"method": "DELETE",
+			"modified": 1551869018814,
+			"name": "delete_participant_from_group",
+			"parameters": [],
+			"parentId": "fld_96b0fbdfb24d440b84ce2365eaef96e9",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingMaxTimelineDataSize": 1000,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "http://127.0.0.1:5000/api/courses/1/groups/1/participants/4",
+			"_type": "request"
+		},
+		{
+			"_id": "req_57dd62ab2f3447319cc59c2ffd35ce02",
+			"authentication": {},
+			"body": {},
+			"created": 1545396236111,
+			"description": "",
+			"headers": [
+				{
+					"disabled": true,
+					"id": "pair_4e7f7d12f019449db72db73c88b99ecf",
+					"name": "Authorization",
+					"value": "{{ token  }}"
+				},
+				{
+					"disabled": false,
+					"id": "pair_9110347eeced43e18aaf5b1f4e2aa3d6",
+					"name": "Authorization",
+					"value": "{{ token2  }}"
+				}
+			],
+			"isPrivate": false,
+			"metaSortKey": -1541517953848,
+			"method": "DELETE",
+			"modified": 1551869081656,
+			"name": "delete_self_participation",
+			"parameters": [],
+			"parentId": "fld_96b0fbdfb24d440b84ce2365eaef96e9",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingMaxTimelineDataSize": 1000,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "http://127.0.0.1:5000/api/courses/26/groups/20/participants/me",
+			"_type": "request"
+		},
+		{
+			"_id": "req_c69909f602de47faa01b7c1723fdf25d",
+			"authentication": {},
+			"body": {},
+			"created": 1542212669813,
+			"description": "For teacher:\nRequired URL argument:\n\n\t-?p=<int> - to get answers for current participant for all tasks\n\t-?p=me - to get self answers for all tasks\n\t",
+			"headers": [
+				{
+					"disabled": true,
+					"id": "pair_82b6ef8c39de4747af92bfb37f12a94d",
+					"name": "Authorization",
+					"value": "{{ token }}"
+				},
+				{
+					"disabled": false,
+					"id": "pair_95de1fc90cab4632aa8ab20b01d36330",
+					"name": "Authorization",
+					"value": "{{ token2  }}"
+				},
+				{
+					"id": "pair_e16d0c209eb34ce5817d7baa5a0166bf",
+					"name": "Authorization",
+					"value": "{{ token3  }}"
+				}
+			],
+			"isPrivate": false,
+			"metaSortKey": -1542821274339,
+			"method": "GET",
+			"modified": 1552571995105,
+			"name": "get_student_tasks_answers",
+			"parameters": [],
+			"parentId": "fld_7b22e1b2f0504c30aff987b1ab7ec09c",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingMaxTimelineDataSize": 1000,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": " http://127.0.0.1:5000/api/courses/5/answers?p=me",
+			"_type": "request"
+		},
+		{
+			"_id": "req_4ea0b7f6fe3346e6991cccf3d87328ab",
+			"authentication": {},
+			"body": {
+				"mimeType": "application/json",
+				"text": "{ \"answers\": [\n{ \"q_id\": 0, \"a_id\": [ 1 ] },\n{ \"q_id\": 1, \"a_id\": [  3 ] },\n{ \"q_id\": 2, \"a_id\": [ 1 ] }] }\n\n"
+			},
+			"created": 1542227109653,
+			"description": "{\n\t\"answers\": \"asdsadddsdddddddddddddddddd\"\n}\n\n{\n  \"answers\": [\n    {\t\t\n      \"q_id\": 0,\n      \"a_id\": [ 1 ]\n    },\n    {\n      \"q_id\": 1,\n      \"a_id\": [ 0 ]\n    },\n\t\t{\t\t\n      \"q_id\": 2,\n      \"a_id\": [ 1 ]\n    },\n\t\t{\t\t\n      \"q_id\": 3,\n      \"a_id\": [ 0 ]\n    }\n  ]\n}",
+			"headers": [
+				{
+					"id": "pair_dd445557dbe441528dc8e0945a110de7",
+					"name": "Content-Type",
+					"value": "application/json"
+				},
+				{
+					"disabled": true,
+					"id": "pair_d245d0ba050540089ab429e82d6e5464",
+					"name": "Authorization",
+					"value": "{{ token }}"
+				},
+				{
+					"disabled": false,
+					"id": "pair_b01b734b054746caacd062c1271aca0b",
+					"name": "Authorization",
+					"value": "{{ token2  }}"
+				}
+			],
+			"isPrivate": false,
+			"metaSortKey": -1542212669763,
+			"method": "POST",
+			"modified": 1552571978337,
+			"name": "add_student_answer_for_task",
+			"parameters": [],
+			"parentId": "fld_7b22e1b2f0504c30aff987b1ab7ec09c",
+			"settingDisableRenderRequestBody": true,
+			"settingEncodeUrl": true,
+			"settingMaxTimelineDataSize": 1000,
+			"settingRebuildPath": false,
+			"settingSendCookies": false,
+			"settingStoreCookies": true,
+			"url": "http://127.0.0.1:5000/api/courses/20/tasks/3/answers",
+			"_type": "request"
+		},
+		{
+			"_id": "req_f8ad9337cb724e49863202bbdc57b8ea",
+			"authentication": {},
+			"body": {},
+			"created": 1542821274289,
+			"description": "",
+			"headers": [
+				{
+					"disabled": false,
+					"id": "pair_9497bece39ad43c796cdf7948f59c667",
+					"name": "Authorization",
+					"value": "{{ token  }}"
+				},
+				{
+					"disabled": true,
+					"id": "pair_232a95bd43484953b6db2a45a940a31e",
+					"name": "Authorization",
+					"value": "{{ token2  }}"
+				},
+				{
+					"id": "pair_8a7e6d42750e4e3da31a36d89a41e17d",
+					"name": "Content-Type",
+					"value": "application/json"
+				}
+			],
+			"isPrivate": false,
+			"metaSortKey": -1542516972026,
+			"method": "GET",
+			"modified": 1553508214303,
+			"name": "get_info_is_student_answer_exist",
+			"parameters": [],
+			"parentId": "fld_7b22e1b2f0504c30aff987b1ab7ec09c",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingMaxTimelineDataSize": 1000,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "http://127.0.0.1:5000/api/courses/1/tasks/2/answers/exist",
+			"_type": "request"
+		},
+		{
+			"_id": "req_07427a6556044a7db276759a3d85d627",
+			"authentication": {},
+			"body": {
+				"mimeType": "application/json",
+				"text": "{\n\t\"grade\": 30\n}"
+			},
+			"created": 1546090024453,
+			"description": "Required URL argument:\n?p=<int> - participant ID\n\nRequired body arguments:\n\"grade\": <int>",
+			"headers": [
+				{
+					"id": "pair_251857fb4dd2456797588d3b933ea3a2",
+					"name": "Content-Type",
+					"value": "application/json"
+				},
+				{
+					"disabled": false,
+					"id": "pair_8f70a605886641f9a5db2ebfa177bb4b",
+					"name": "Authorization",
+					"value": "{{ token  }}"
+				},
+				{
+					"disabled": true,
+					"id": "pair_0f5e0214d45641f1b699bea4c6fdb242",
+					"name": "Authorization",
+					"value": "{{ token2  }}"
+				}
+			],
+			"isPrivate": false,
+			"metaSortKey": -1542212669713,
+			"method": "PUT",
+			"modified": 1553508214811,
+			"name": "add_task_grade_for_current_user",
+			"parameters": [],
+			"parentId": "fld_7b22e1b2f0504c30aff987b1ab7ec09c",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingMaxTimelineDataSize": 1000,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": " http://127.0.0.1:5000/api/courses/5/tasks/16/grades?p=3",
+			"_type": "request"
+		},
+		{
+			"_id": "req_26025fa8cbad42e99bed7d72d8cf9077",
+			"authentication": {},
+			"body": {},
+			"created": 1547068523548,
+			"description": "Required parameter:\n\t\n\t- p=me - for participant to get self grade for course \n\t- p=<int> - for course owner to get grade for course participant\n\nResponse:\n\n- if key \"missing_answers\" in response is true participant don't have answer/s for task/s in course\n- if key \"missing_grade\" in response is true mean missing grade/s for existing participant answer/s\n\n- if both keys are false all is right",
+			"headers": [
+				{
+					"disabled": true,
+					"id": "pair_1f33712f0d5e4b62bb0d0002d1e05560",
+					"name": "Authorization",
+					"value": "{{ token  }}"
+				},
+				{
+					"disabled": false,
+					"id": "pair_7b777177e3e94af9a019478c71f7a7b9",
+					"name": "Authorization",
+					"value": "{{ token2  }}"
+				},
+				{
+					"id": "pair_775dfe9d3c9a4acd950e65e438c584e6",
+					"name": "Authorization",
+					"value": "{{ token3  }}"
+				}
+			],
+			"isPrivate": false,
+			"metaSortKey": -1547068523548,
+			"method": "GET",
+			"modified": 1553508213860,
+			"name": "get_student_grad_for_course",
+			"parameters": [],
+			"parentId": "fld_7b22e1b2f0504c30aff987b1ab7ec09c",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingMaxTimelineDataSize": 1000,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": " http://127.0.0.1:5000/api/courses/5/grades?p=me",
+			"_type": "request"
+		},
+		{
+			"_id": "req_82455f85ad9642579e67c25676327db7",
+			"authentication": {},
+			"body": {},
+			"created": 1544004117413,
+			"description": "request optional URL args:\n\n\t?g=int - return results for all participants in current group\n\t\n\t?u=int - return result for current user\n\t\n\t- without added args in URL, request will return results for all groups in course ",
+			"headers": [
+				{
+					"disabled": false,
+					"id": "pair_361a9e5e1c33479eb2692013bdf5c60a",
+					"name": "Authorization",
+					"value": "{{ token  }}"
+				},
+				{
+					"disabled": true,
+					"id": "pair_f6b785d3e48045fdb57af56456dd1cec",
+					"name": "Authorization",
+					"value": "{{ token2  }}"
+				},
+				{
+					"id": "pair_bdcd8aeab0974f5bb4351a1927e979ac",
+					"name": "Authorization",
+					"value": "{{ token3  }}"
+				}
+			],
+			"isPrivate": false,
+			"metaSortKey": -1544004117413,
+			"method": "GET",
+			"modified": 1553508212463,
+			"name": "get_course_results",
+			"parameters": [],
+			"parentId": "fld_f77000049cba41239cfccb93bdaf5ada",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingMaxTimelineDataSize": 1000,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "http://127.0.0.1:5000/api/courses/3/groups/3/reinvitations",
+			"_type": "request"
+		},
+		{
+			"_id": "req_f3cc026af0bd49f3aca7d02a83c016f3",
+			"authentication": {},
+			"body": {
+				"mimeType": "application/json",
+				"text": "{\n\t\"grade\": \"ocenka\"\n}"
+			},
+			"created": 1544004528701,
+			"description": "Required args in URL addres:\n\n\t?u=int (contain user_id)",
+			"headers": [
+				{
+					"id": "pair_96d2301472454c2f8fc221c7dd45e815",
+					"name": "Content-Type",
+					"value": "application/json"
+				},
+				{
+					"disabled": false,
+					"id": "pair_ff8cde3a15004b128f453bec8c2c173f",
+					"name": "Authorization",
+					"value": "{{ token  }}"
+				},
+				{
+					"disabled": true,
+					"id": "pair_196c9d92516e4f88b8249b22e6260dae",
+					"name": "Authorization",
+					"value": "{{ token2  }}"
+				}
+			],
+			"isPrivate": false,
+			"metaSortKey": -1544004117363,
+			"method": "POST",
+			"modified": 1555419216763,
+			"name": "post_result ",
+			"parameters": [],
+			"parentId": "fld_f77000049cba41239cfccb93bdaf5ada",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingMaxTimelineDataSize": 1000,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "http://127.0.0.1:5000/api/courses/6/results?u=1",
+			"_type": "request"
+		},
+		{
+			"_id": "req_81654d2473aa478f8bc390fe8226bc02",
+			"authentication": {},
+			"body": {},
+			"created": 1544005112176,
+			"description": "",
+			"headers": [
+				{
+					"id": "pair_92d32b8c0dd447aa97f50343200c0292",
+					"name": "Authorization",
+					"value": "{{ token  }}"
+				},
+				{
+					"disabled": true,
+					"id": "pair_60838558b5c44a149a83c7c12ff3936d",
+					"name": "Authorization",
+					"value": "{{ token2  }}"
+				}
+			],
+			"isPrivate": false,
+			"metaSortKey": -1544004117388,
+			"method": "GET",
+			"modified": 1555418461732,
+			"name": "get_self_course_result",
+			"parameters": [],
+			"parentId": "fld_f77000049cba41239cfccb93bdaf5ada",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingMaxTimelineDataSize": 1000,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "http://127.0.0.1:5000/api/courses/5/results/me",
+			"_type": "request"
+		},
+		{
+			"_id": "req_e41a8c229b7d4af69e70cbb0ae263f66",
+			"authentication": {},
+			"body": {
+				"mimeType": "application/json",
+				"text": "{\n\t\"grade\": \"promenena ocenka\"\n}"
+			},
+			"created": 1544005257839,
+			"description": "",
+			"headers": [
+				{
+					"id": "pair_e24c401468574f728197da0ff741f6f8",
+					"name": "Content-Type",
+					"value": "application/json"
+				},
+				{
+					"disabled": false,
+					"id": "pair_b88195cec1b74ce3822303b87c258d09",
+					"name": "Authorization",
+					"value": "{{ token  }}"
+				},
+				{
+					"disabled": true,
+					"id": "pair_932cb0c6356c40998eb19517f30ca34d",
+					"name": "Authorization",
+					"value": "{{ token2  }}"
+				}
+			],
+			"isPrivate": false,
+			"metaSortKey": -1544004117313,
+			"method": "PUT",
+			"modified": 1550915547340,
+			"name": "put_current_result",
+			"parameters": [],
+			"parentId": "fld_f77000049cba41239cfccb93bdaf5ada",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingMaxTimelineDataSize": 1000,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "http://127.0.0.1:5000/api/courses/6/results/5",
+			"_type": "request"
+		},
+		{
+			"_id": "req_c969bff4d6b246b1b5929e8501aad4c0",
+			"authentication": {},
+			"body": {},
+			"created": 1544005584043,
+			"description": "",
+			"headers": [
+				{
+					"disabled": false,
+					"id": "pair_a764c9aa12cb4be6b3d6a6db53f2d645",
+					"name": "Authorization",
+					"value": "{{ token  }}"
+				},
+				{
+					"disabled": true,
+					"id": "pair_a38e222fa20041b0903514c96a48c5db",
+					"name": "Authorization",
+					"value": "{{ token2  }}"
+				}
+			],
+			"isPrivate": false,
+			"metaSortKey": -1544004117263,
+			"method": "DELETE",
+			"modified": 1553508213304,
+			"name": "delete_result",
+			"parameters": [],
+			"parentId": "fld_f77000049cba41239cfccb93bdaf5ada",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingMaxTimelineDataSize": 1000,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "http://127.0.0.1:5000/api/courses/6/results/5",
+			"_type": "request"
+		},
+		{
+			"_id": "req_7fcbb98be5c445c8bca8f3b959e0174c",
+			"authentication": {},
+			"body": {
+				"mimeType": "application/json",
+				"text": "{\n\t\"u_id\": 2\n}"
+			},
+			"created": 1544449806613,
+			"description": "",
+			"headers": [
+				{
+					"id": "pair_6d0612d30b454ccebad03c335c6a9a60",
+					"name": "Content-Type",
+					"value": "application/json"
+				},
+				{
+					"disabled": false,
+					"id": "pair_a5c032e61e7c43db9c9bc1a8c8ef9461",
+					"name": "Authorization",
+					"value": "{{ token  }}"
+				},
+				{
+					"disabled": true,
+					"id": "pair_e3715cffcb53402383f8914be2808486",
+					"name": "Authorization",
+					"value": "{{ token2  }}"
+				}
+			],
+			"isPrivate": false,
+			"metaSortKey": -1544449806613,
+			"method": "POST",
+			"modified": 1551713415661,
+			"name": "send_invitations",
+			"parameters": [],
+			"parentId": "fld_312d8ab0c4264b1d905fe06ae24e1793",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingMaxTimelineDataSize": 1000,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "http://127.0.0.1:5000/api/courses/25/groups/18/invitations",
+			"_type": "request"
+		},
+		{
+			"_id": "req_8ab79892abf8427e87a2f198f00495ea",
+			"authentication": {},
+			"body": {
+				"mimeType": "application/json",
+				"text": "{\n\t\"u_id\": 2\n}"
+			},
+			"created": 1545412716360,
+			"description": "",
+			"headers": [
+				{
+					"id": "pair_686216334aa04b80bddaa70b49562c8a",
+					"name": "Content-Type",
+					"value": "application/json"
+				},
+				{
+					"disabled": false,
+					"id": "pair_6f31f0060a5d4829add9a29879a3f7af",
+					"name": "Authorization",
+					"value": "{{ token  }}"
+				},
+				{
+					"disabled": true,
+					"id": "pair_c1f94b3730564dfca693655b066eff46",
+					"name": "Authorization",
+					"value": "{{ token2  }}"
+				}
+			],
+			"isPrivate": false,
+			"metaSortKey": -1545412716360,
+			"method": "POST",
+			"modified": 1551707365008,
+			"name": "resend email",
+			"parameters": [],
+			"parentId": "fld_312d8ab0c4264b1d905fe06ae24e1793",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingMaxTimelineDataSize": 1000,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "http://127.0.0.1:5000/api/courses/3/groups/3/reinvitations",
+			"_type": "request"
+		},
+		{
+			"_id": "req_40b0c5fea3214e9996a801f513418452",
+			"authentication": {},
+			"body": {
+				"mimeType": "application/json",
+				"text": "{\n\t\"c_id\": 3,\n\t\"g_id\": 3,\n\t\"email\": \"asd@gmail.com\",\n\t\"stripeToken\": \"tok_1E5F2SHP1XEfkfg1t5dUpduB\"\n}"
+			},
+			"created": 1550412709510,
+			"description": "",
+			"headers": [
+				{
+					"id": "pair_75bf8d6f36dc42dd903c97a51875c78a",
+					"name": "Content-Type",
+					"value": "application/json"
+				},
+				{
+					"id": "pair_5262c58b1d0642d0ba1828151da957c6",
+					"name": "Authorization",
+					"value": "{{ token  }}"
+				},
+				{
+					"disabled": true,
+					"id": "pair_776c65212f614aed81fdc82932fef775",
+					"name": "Authorization",
+					"value": "{{ token2  }}"
+				},
+				{
+					"disabled": true,
+					"id": "pair_7666154b4af14f67a631a713a304489e",
+					"name": "Authorization",
+					"value": "{{ token3  }}"
+				}
+			],
+			"isPrivate": false,
+			"metaSortKey": -1550412709510,
+			"method": "POST",
+			"modified": 1555419202388,
+			"name": "payment",
+			"parameters": [],
+			"parentId": "fld_6e021897040f4c889b1d29ab56ca61f1",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingMaxTimelineDataSize": 1000,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "http://127.0.0.1:5000/api/payments",
+			"_type": "request"
+		},
+		{
+			"_id": "req_eb5d07527aec481fb031a623e617055a",
+			"authentication": {},
+			"body": {},
+			"created": 1553091813822,
+			"description": "For teacher:\n\t\tGet info for participants and prices for teacher's own courses\n\n\n\tRequired argument \"f\"\n\t\t\t?f=all - will return info for all courses witch teacher is owner\n\t\t\t\n\t\t\t?f=byCourse (required argument \"c_id\")\n\t\t\t\t+ &c_id=int will return info for current course\n\t\t\t\t\n\t\t\t?f=byCourseGroup (required arguments \"c_id\", \"g_id\")\n\t\t\t\t+ &c_id=int + &g_id=int will return info for current course group\n\t\t\t\t\n\t\t\t\t\nFor admin:\n\tGet info for all payments, participants and prices for course\n\t\n\t\n\tRequired argument \"f\"\n\t\t\t?f=byCourse (required argument \"c_id\")\n\t\t\t\t+ &c_id=int will return info for current course\n\t\t\t\t\n\t\t\t?f=byCourseGroup (required arguments \"c_id\", \"g_id\")\n\t\t\t\t+ &c_id=int + &g_id=int will return info for current course group\n\t\t\t\t\n\t\t\t?f=byUserID (required argument \"u_id\")\n\t\t\t\t+ &u_id will return info for all courses owned by current user\n\t\t\t\t",
+			"headers": [
+				{
+					"disabled": true,
+					"id": "pair_332301cf920c45aaa9b780ef3ac3367c",
+					"name": "Authorization",
+					"value": "{{ token  }}"
+				},
+				{
+					"disabled": true,
+					"id": "pair_7d522d67d76d4bb0afdc79e66d6dfc9d",
+					"name": "Authorization",
+					"value": "{{ token2  }}"
+				},
+				{
+					"disabled": false,
+					"id": "pair_d93f08ec10714f28894579b7ec44aa89",
+					"name": "Authorization",
+					"value": "{{ token3  }}"
+				}
+			],
+			"isPrivate": false,
+			"metaSortKey": -1553091813822,
+			"method": "GET",
+			"modified": 1555419204188,
+			"name": "GET payment info",
+			"parameters": [],
+			"parentId": "fld_6e021897040f4c889b1d29ab56ca61f1",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingMaxTimelineDataSize": 1000,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "http://127.0.0.1:5000/api/payments?f=byCourseGroup&c_id=80&g_id=52",
+			"_type": "request"
+		},
+		{
+			"_id": "req_546f966ba9ac49d09498cf37181445fe",
+			"authentication": {},
+			"body": {
+				"mimeType": "application/json",
+				"text": "{\n\t\"c_id\": 79,\n\t\"g_id\": 51,\n\t\"subject\": \"Start 1 am.\",\n\t\"body\": \"Something in the body\",\n\t\"date\": \"2019-2-15 16:30\",\n\t\"task_ids\": [37, 38, 39, 40, 41, 42]\n}\n"
+			},
+			"created": 1549234135364,
+			"description": "",
+			"headers": [
+				{
+					"id": "pair_11a008a12f0e419f89027eb4eee15ee6",
+					"name": "Content-Type",
+					"value": "application/json"
+				},
+				{
+					"disabled": false,
+					"id": "pair_6f5392c1ad744cb7a9ee75ac4a0a58dd",
+					"name": "Authorization",
+					"value": "{{ token  }}"
+				},
+				{
+					"disabled": true,
+					"id": "pair_36f4d606b1fe47ce8704fa7a3dd88582",
+					"name": "Authorization",
+					"value": "{{ token2  }}"
+				},
+				{
+					"disabled": true,
+					"id": "pair_08faf0f6c88843b49cc2c79291860706",
+					"name": "Authorization",
+					"value": "{{ token3  }}"
+				}
+			],
+			"isPrivate": false,
+			"metaSortKey": -1549234135364,
+			"method": "POST",
+			"modified": 1553592797754,
+			"name": "event",
+			"parameters": [],
+			"parentId": "fld_1395b5b75f484361816c3bfbd6f3b870",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingMaxTimelineDataSize": 1000,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "http://127.0.0.1:5000/api/events",
+			"_type": "request"
+		},
+		{
+			"_id": "req_fe14620c96574d918995f2dbe9ac2ca1",
+			"authentication": {},
+			"body": {},
+			"created": 1549280391237,
+			"description": "Required argument \" f \":\n\t\t\n\t\tvalues:\n\t\t\t\t?f=all\n\t\t\t\t?f=byCourse + &c_id=<int>\n\t\t\t\t?f=byCourseGroup + &c_id=<int> + &g_id=<int>\n\t",
+			"headers": [
+				{
+					"disabled": true,
+					"id": "pair_73cce42d8ae14cd2b08fd87f95e1ad91",
+					"name": "Authorization",
+					"value": "{{ token  }}"
+				},
+				{
+					"disabled": true,
+					"id": "pair_a04e49ac05054573b2987cf45d813bd4",
+					"name": "Authorization",
+					"value": "{{ token2  }}"
+				},
+				{
+					"disabled": false,
+					"id": "pair_a98a892a6b52478781a04c460834ee68",
+					"name": "Authorization",
+					"value": "{{ token3  }}"
+				}
+			],
+			"isPrivate": false,
+			"metaSortKey": -1549280391237,
+			"method": "GET",
+			"modified": 1553592967024,
+			"name": "get_events",
+			"parameters": [],
+			"parentId": "fld_1395b5b75f484361816c3bfbd6f3b870",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingMaxTimelineDataSize": 1000,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "http://127.0.0.1:5000/api/events?f=all",
+			"_type": "request"
+		},
+		{
+			"_id": "req_dc97dfa9ccc74f1d893a6057c4263e80",
+			"authentication": {},
+			"body": {},
+			"created": 1549281545261,
+			"description": "",
+			"headers": [
+				{
+					"disabled": false,
+					"id": "pair_0a41157455cc4bea8c8e1834563b060f",
+					"name": "Authorization",
+					"value": "{{ token  }}"
+				},
+				{
+					"disabled": true,
+					"id": "pair_35aa65d51baf49aaa6bec317835327a9",
+					"name": "Authorization",
+					"value": "{{ token2  }}"
+				},
+				{
+					"disabled": true,
+					"id": "pair_3aba84ed33704d67890587306baad6d8",
+					"name": "Authorization",
+					"value": "{{ token3  }}"
+				}
+			],
+			"isPrivate": false,
+			"metaSortKey": -1549281545261,
+			"method": "GET",
+			"modified": 1553592966579,
+			"name": "get_event_byID",
+			"parameters": [],
+			"parentId": "fld_1395b5b75f484361816c3bfbd6f3b870",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingMaxTimelineDataSize": 1000,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "http://127.0.0.1:5000/api/events/53",
+			"_type": "request"
+		},
+		{
+			"_id": "req_90f04e0129e041d2a1ced5c8c0dd5f99",
+			"authentication": {},
+			"body": {
+				"mimeType": "application/json",
+				"text": "{\n\t\"subject\": \"New Subject by Admin\",\n\t\"body\": \"New body by Admin\",\n\t\"date\": \"2022-3-22 22:30\",\n\t\"task_ids\": [37, 38, 39, 40, 41, 42]\n}\n"
+			},
+			"created": 1549282312060,
+			"description": "",
+			"headers": [
+				{
+					"id": "pair_a6e99e856bf54b179a8338c92b910b97",
+					"name": "Content-Type",
+					"value": "application/json"
+				},
+				{
+					"disabled": false,
+					"id": "pair_f478e855b9924ece94700f1373c8d8e5",
+					"name": "Authorization",
+					"value": "{{ token  }}"
+				},
+				{
+					"disabled": true,
+					"id": "pair_597c73c6c4e1423489dcd2b2eb52ade9",
+					"name": "Authorization",
+					"value": "{{ token2  }}"
+				},
+				{
+					"disabled": true,
+					"id": "pair_84707bc31b664635bd66b8a80d070b77",
+					"name": "Authorization",
+					"value": "{{ token3  }}"
+				}
+			],
+			"isPrivate": false,
+			"metaSortKey": -1549234135314,
+			"method": "PUT",
+			"modified": 1553080747015,
+			"name": "put_event_byID",
+			"parameters": [],
+			"parentId": "fld_1395b5b75f484361816c3bfbd6f3b870",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingMaxTimelineDataSize": 1000,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "http://127.0.0.1:5000/api/events/55",
+			"_type": "request"
+		},
+		{
+			"_id": "req_c4d45b696e25437ab1ccbe3dac5fcf5d",
+			"authentication": {},
+			"body": {},
+			"created": 1549282547306,
+			"description": "",
+			"headers": [
+				{
+					"disabled": true,
+					"id": "pair_09ed927638524d54aa982934d24994dc",
+					"name": "Authorization",
+					"value": "{{ token  }}"
+				},
+				{
+					"disabled": true,
+					"id": "pair_c422b94946834901ba770eb3d13eb578",
+					"name": "Authorization",
+					"value": "{{ token2  }}"
+				},
+				{
+					"disabled": false,
+					"id": "pair_deb2150f07b644ffb710a960484fd0e6",
+					"name": "Authorization",
+					"value": "{{ token3  }}"
+				}
+			],
+			"isPrivate": false,
+			"metaSortKey": -1549234135264,
+			"method": "DELETE",
+			"modified": 1549472248062,
+			"name": "delete_event_byID",
+			"parameters": [],
+			"parentId": "fld_1395b5b75f484361816c3bfbd6f3b870",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingMaxTimelineDataSize": 1000,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "http://127.0.0.1:5000/api/events/4",
+			"_type": "request"
+		},
+		{
+			"_id": "req_18eb959ef4114d80868166c3628ffe54",
+			"authentication": {},
+			"body": {},
+			"created": 1549628463328,
+			"description": "Available arguments:\n\t\t\n\t\tif ?courseID=int is available will ignore another arguments\n\t\t?date=2019-02-20&status=2&ownerID=1\n\t\t\n\t\t?count=1 (get count of all requests)\n\t\t\t\t\t&status=1, 2, 3 (get count of all requests with current status)\n\nWithout argumetns will return all approval requests with status 1 - \"new\" if Admin or Moderator\n\n\nif is teacher will return teachers own request",
+			"headers": [
+				{
+					"disabled": true,
+					"id": "pair_7ceb908c773442f793460d939c96bd69",
+					"name": "Authorization",
+					"value": "{{ token  }}"
+				},
+				{
+					"disabled": true,
+					"id": "pair_c186dda3361b4203b87db70a6f2fea5d",
+					"name": "Authorization",
+					"value": "{{ token2  }}"
+				},
+				{
+					"disabled": false,
+					"id": "pair_947355b045e3403aa51ae136175a0f9a",
+					"name": "Authorization",
+					"value": "{{ token3  }}"
+				}
+			],
+			"isPrivate": false,
+			"metaSortKey": -1549628463328,
+			"method": "GET",
+			"modified": 1553593099383,
+			"name": "requests",
+			"parameters": [],
+			"parentId": "fld_5c088047f3b54e9c84573a0e4a52068a",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingMaxTimelineDataSize": 1000,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": false,
+			"url": "http://127.0.0.1:5000/api/requests?count=1&status=3",
+			"_type": "request"
+		},
+		{
+			"_id": "req_84cecb58129d4e0bb4e4baa7a4d6c336",
+			"authentication": {},
+			"body": {
+				"mimeType": "application/json",
+				"text": "{\n\t\"c_id\": 33,\n\t\"note\": \"asdasfdlshkasdasfdlshkasdasfdlshkasdasfdlshkasdasfdlshkasdasfdlshkasdasfdlshkasdasfdlshkasdasfdlshkasdasfdlshkasdasfdlshkasdasfdlshkasdasfdlshkasdasfdlshkasdasfdlshkasdasfdlshkasdasfdlshkasdasfdlshkasdasfdlshkasdasfdlshkasdasfdlshkasdasfdlshkasdasfdlshkasdasfdlshkasdasfdlshkasdasfdlshkasdasfdlshkasdasfdlshkasdasfdlshkasdasfdlshkasdasfdlshkasdasfdlshk\"\n}"
+			},
+			"created": 1549631798421,
+			"description": "",
+			"headers": [
+				{
+					"id": "pair_4774ecde96104443901244f8321b0c5b",
+					"name": "Content-Type",
+					"value": "application/json"
+				},
+				{
+					"disabled": false,
+					"id": "pair_e3a0e99bf9654f0b97eb14984bb5004e",
+					"name": "Authorization",
+					"value": "{{ token  }}"
+				},
+				{
+					"disabled": true,
+					"id": "pair_fd9a61088d484315a22ac4c180b5c309",
+					"name": "Authorization",
+					"value": "{{ token2  }}"
+				},
+				{
+					"disabled": true,
+					"id": "pair_f6b6cf1d88c148c48907ffd15c304155",
+					"name": "Authorization",
+					"value": "{{ token3  }}"
+				}
+			],
+			"isPrivate": false,
+			"metaSortKey": -1549628463278,
+			"method": "POST",
+			"modified": 1551955619439,
+			"name": "approval request",
+			"parameters": [],
+			"parentId": "fld_5c088047f3b54e9c84573a0e4a52068a",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingMaxTimelineDataSize": 1000,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "http://127.0.0.1:5000/api/requests",
+			"_type": "request"
+		},
+		{
+			"_id": "req_f54504a7a3af4eba91d57a8c86902875",
+			"authentication": {},
+			"body": {},
+			"created": 1549636838114,
+			"description": "",
+			"headers": [
+				{
+					"disabled": true,
+					"id": "pair_aaab3cd7e3144bc7b3c538682fe0d863",
+					"name": "Authorization",
+					"value": "{{ token  }}"
+				},
+				{
+					"disabled": false,
+					"id": "pair_672a9ad457884bb0a594a4a6672c8db5",
+					"name": "Authorization",
+					"value": "{{ token2  }}"
+				},
+				{
+					"disabled": true,
+					"id": "pair_4a1a8b7b37d04f07807c7071f04bdf66",
+					"name": "Authorization",
+					"value": "{{ token3  }}"
+				}
+			],
+			"isPrivate": false,
+			"metaSortKey": -1549628463303,
+			"method": "GET",
+			"modified": 1551955680910,
+			"name": "request_by_ID",
+			"parameters": [],
+			"parentId": "fld_5c088047f3b54e9c84573a0e4a52068a",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingMaxTimelineDataSize": 1000,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "http://127.0.0.1:5000/api/requests/1",
+			"_type": "request"
+		},
+		{
+			"_id": "req_410b15cfcfe8457a9323f6c83ff3ce9d",
+			"authentication": {},
+			"body": {},
+			"created": 1549636883914,
+			"description": "",
+			"headers": [
+				{
+					"disabled": true,
+					"id": "pair_23cc6968b7dc46f299050f2e3d9113db",
+					"name": "Authorization",
+					"value": "{{ token  }}"
+				},
+				{
+					"disabled": true,
+					"id": "pair_d1149d4e43834fc3ad10f0be2627e41a",
+					"name": "Authorization",
+					"value": "{{ token2  }}"
+				},
+				{
+					"disabled": false,
+					"id": "pair_271fb4b7fa4744cfa6deac07c96c69de",
+					"name": "Authorization",
+					"value": "{{ token3  }}"
+				}
+			],
+			"isPrivate": false,
+			"metaSortKey": -1549628463228,
+			"method": "DELETE",
+			"modified": 1550915544172,
+			"name": "delete request by ID - only Admin / Moderator ",
+			"parameters": [],
+			"parentId": "fld_5c088047f3b54e9c84573a0e4a52068a",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingMaxTimelineDataSize": 1000,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "http://127.0.0.1:5000/api/requests/1",
+			"_type": "request"
+		},
+		{
+			"_id": "req_23c88e799e42434fb9b3b0fe4bd73d3e",
+			"authentication": {},
+			"body": {
+				"mimeType": "application/json",
+				"text": "{\n\t\"note\": \"approved\",\n\t\"status\": 3\n}"
+			},
+			"created": 1549712832831,
+			"description": "",
+			"headers": [
+				{
+					"id": "pair_cd37b0041a494cbdacbf9a91d1816993",
+					"name": "Content-Type",
+					"value": "application/json"
+				},
+				{
+					"disabled": true,
+					"id": "pair_5c76434592dd43a7abc2fee64239c3aa",
+					"name": "Authorization",
+					"value": "{{ token  }}"
+				},
+				{
+					"disabled": true,
+					"id": "pair_ac3eaff3a5494f0ca0b718cbb8b97e43",
+					"name": "Authorization",
+					"value": "{{ token2  }}"
+				},
+				{
+					"disabled": false,
+					"id": "pair_803db5bdcadf4da28c5877ed429b0bc4",
+					"name": "Authorization",
+					"value": "{{ token3  }}"
+				}
+			],
+			"isPrivate": false,
+			"metaSortKey": -1549628463253,
+			"method": "PUT",
+			"modified": 1551093418506,
+			"name": "put_by_owner_admin_moderator",
+			"parameters": [],
+			"parentId": "fld_5c088047f3b54e9c84573a0e4a52068a",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingMaxTimelineDataSize": 1000,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "http://127.0.0.1:5000/api/requests/5",
+			"_type": "request"
+		},
+		{
+			"_id": "req_3f0580d065fd462fbe9b82ca02d5153c",
+			"authentication": {},
+			"body": {
+				"mimeType": "application/json",
+				"text": "{ \n\t\"event_id\": 3,\n\t\"tasks_ids\": [1, 2, 3, 4, 5, 7]\n}"
+			},
+			"created": 1552909338463,
+			"description": "",
+			"headers": [
+				{
+					"id": "pair_0ccf91ec0b2c47e79d4a341724b9a7f7",
+					"name": "Content-Type",
+					"value": "application/json"
+				},
+				{
+					"id": "pair_5f0593ebd2414dba9452d4c68a5602ab",
+					"name": "Authorization",
+					"value": "token"
+				},
+				{
+					"id": "pair_e4414574960747158f5b8249b9e8373a",
+					"name": "Authorization",
+					"value": "token2"
+				},
+				{
+					"id": "pair_bc2a0677364244268d6bf312a5c78719",
+					"name": "Authorization",
+					"value": "token3"
+				}
+			],
+			"isPrivate": false,
+			"metaSortKey": -1552909338463,
+			"method": "POST",
+			"modified": 1555419204864,
+			"name": "Post lessons",
+			"parameters": [],
+			"parentId": "fld_ee3922b2952344be8e5b64f0d175b7ed",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingMaxTimelineDataSize": 1000,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "",
+			"_type": "request"
+		},
+		{
+			"_id": "req_4b0e8d877526426197ade5cbe223589e",
+			"authentication": {},
+			"body": {},
+			"created": 1552922977655,
+			"description": "",
+			"headers": [],
+			"isPrivate": false,
+			"metaSortKey": -1552922977655,
+			"method": "GET",
+			"modified": 1555419208864,
+			"name": "get lessons",
+			"parameters": [],
+			"parentId": "fld_ee3922b2952344be8e5b64f0d175b7ed",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingMaxTimelineDataSize": 1000,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "http://127.0.0.1:5000/api/courses/1/lessons?e_id=1",
+			"_type": "request"
+		},
+		{
+			"_id": "req_abfe2da4cabe4feda7614021d7856b8b",
+			"authentication": {},
+			"body": {
+				"mimeType": "application/json",
+				"text": "{\n\t\"file_path\": \"/asdasdasdas/addsa/asdasd/asdas.ttp\"\n}"
+			},
+			"created": 1555419099160,
+			"description": "",
+			"headers": [
+				{
+					"id": "pair_a9c9da6717db486286a3553ea3b23f49",
+					"name": "Content-Type",
+					"value": "application/json"
+				},
+				{
+					"id": "pair_a8afb98584e14c308e690c93fdd7980d",
+					"name": "Authorization",
+					"value": "{{ token  }}"
+				}
+			],
+			"isPrivate": false,
+			"metaSortKey": -1555419099160,
+			"method": "POST",
+			"modified": 1555938843292,
+			"name": "PPT to SVG",
+			"parameters": [],
+			"parentId": "fld_19f3ade713554ed5b374c14989cba26b",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingMaxTimelineDataSize": 1000,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "http://127.0.0.1:5500/api/pHandler",
+			"_type": "request"
+		},
+		{
+			"_id": "req_3bb721ff1e0645ceb563a9d4cd5ac45e",
+			"authentication": {},
+			"body": {
+				"mimeType": "application/json",
+				"text": "{\n\t\"file_path\": \"/asdasdasdas/addsa/asdasd/asdas.ttp\"\n}"
+			},
+			"created": 1555933435961,
+			"description": "",
+			"headers": [
+				{
+					"id": "pair_c70c6d1740874bfeb7d1a986aa90a7da",
+					"name": "Content-Type",
+					"value": "application/json"
+				}
+			],
+			"isPrivate": false,
+			"metaSortKey": -1555933435961,
+			"method": "POST",
+			"modified": 1555938680538,
+			"name": "PPT to SVG",
+			"parameters": [],
+			"parentId": "fld_19f3ade713554ed5b374c14989cba26b",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingMaxTimelineDataSize": 1000,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "",
+			"_type": "request"
+		},
+		{
+			"_id": "req_c99394b4ba42449da584f2cf49fe1410",
+			"authentication": {},
+			"body": {
+				"mimeType": "multipart/form-data",
+				"params": [
+					{
+						"fileName": "/home/peio_jr/libre_control/course_1___077.odp",
+						"id": "pair_fbfd585a5e0a46cb8fdbdd190f1c75c4",
+						"name": "file",
+						"type": "file",
+						"value": ""
+					}
+				]
+			},
+			"created": 1555077266802,
+			"description": "\n\t",
+			"headers": [
+				{
+					"id": "pair_0c213908c61a448ca442b7e9f31d1585",
+					"name": "Content-Type",
+					"value": "multipart/form-data"
+				},
+				{
+					"id": "pair_19726b1d18294f3a892fd7e82c35bc3b",
+					"name": "Authorization",
+					"value": "{{ token  }}"
+				},
+				{
+					"disabled": true,
+					"id": "pair_b56936134fb94e5e8e6d0b0c264c165a",
+					"name": "Authorization",
+					"value": "{{ token2  }}"
+				},
+				{
+					"disabled": true,
+					"id": "pair_284bb455e11849728416f8365cb958fd",
+					"name": "Authorization",
+					"value": "{{ token3  }}"
+				}
+			],
+			"isPrivate": false,
+			"metaSortKey": -1555515231439.5,
+			"method": "POST",
+			"modified": 1556030007922,
+			"name": "add_presentation",
+			"parameters": [],
+			"parentId": "fld_c988be5cbffa4c19aab359b6f6330889",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingMaxTimelineDataSize": 1000,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "http://127.0.0.1:5000/api/courses/82/presentations",
+			"_type": "request"
+		},
+		{
+			"_id": "req_85ee293550284241aac018efe6a33f31",
+			"authentication": {},
+			"body": {},
+			"created": 1555082581316,
+			"description": "Get reequest work with course_id and return names of all added presentations ",
+			"headers": [
+				{
+					"id": "pair_cf739eca0dac4a368761fd4f3ba0ec0e",
+					"name": "Authorization",
+					"value": "{{ token  }}"
+				},
+				{
+					"disabled": true,
+					"id": "pair_7a3da47f67d94468904f41f309facbef",
+					"name": "Authorization",
+					"value": "{{ token2  }}"
+				},
+				{
+					"disabled": true,
+					"id": "pair_5046f2e704e34948837dc996d01f81f5",
+					"name": "Authorization",
+					"value": "{{ token3  }}"
+				}
+			],
+			"isPrivate": false,
+			"metaSortKey": -1555515231489.5,
+			"method": "GET",
+			"modified": 1556030066103,
+			"name": "get_all_presentations_for_course",
+			"parameters": [],
+			"parentId": "fld_c988be5cbffa4c19aab359b6f6330889",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingMaxTimelineDataSize": 1000,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "http://127.0.0.1:5000/api/courses/81/presentations",
+			"_type": "request"
+		},
+		{
+			"_id": "req_9755d16954714a2c9a8ac6bb4e0adce7",
+			"authentication": {},
+			"body": {},
+			"created": 1555084388234,
+			"description": "Required_argument /name_of_presentation",
+			"headers": [
+				{
+					"id": "pair_e16872bd107c47769c5c65ed7a500c43",
+					"name": "Authorization",
+					"value": "{{ token  }}"
+				},
+				{
+					"disabled": true,
+					"id": "pair_41cd2d3e52664cc59d7cca132ee89c42",
+					"name": "Authorization",
+					"value": "{{ token2  }}"
+				},
+				{
+					"disabled": true,
+					"id": "pair_35d32be7bcc9447bbb5974f7b0f498b9",
+					"name": "Authorization",
+					"value": "{{ token3  }}"
+				}
+			],
+			"isPrivate": false,
+			"metaSortKey": -1555515231414.5,
+			"method": "DELETE",
+			"modified": 1556030099854,
+			"name": "delete_presentation",
+			"parameters": [],
+			"parentId": "fld_c988be5cbffa4c19aab359b6f6330889",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingMaxTimelineDataSize": 1000,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "http://127.0.0.1:5000/api/courses/81/presentations/course_1___077",
+			"_type": "request"
+		},
+		{
+			"_id": "req_05c7eeaee51e493d9a951cc66b100dc1",
+			"authentication": {},
+			"body": {
+				"mimeType": "multipart/form-data",
+				"params": [
+					{
+						"fileName": "/home/peio_jr/Downloads/giliovca.png",
+						"id": "pair_ed07c001d1e1437cb44093d600086d97",
+						"name": "file",
+						"type": "file",
+						"value": ""
+					}
+				]
+			},
+			"created": 1546622583323,
+			"description": "",
+			"headers": [
+				{
+					"id": "pair_c455bc4c3f2a4317a34bd7c62804f678",
+					"name": "Content-Type",
+					"value": "multipart/form-data"
+				},
+				{
+					"id": "pair_62a464950c234919bd92a882b51aad09",
+					"name": "Authorization",
+					"value": "{{ token  }}"
+				},
+				{
+					"disabled": true,
+					"id": "pair_804caef6be3c4f97860e49d589bc5dd4",
+					"name": "Authorization",
+					"value": "{{ token2  }}"
+				}
+			],
+			"isPrivate": false,
+			"metaSortKey": -1540737164001.25,
+			"method": "POST",
+			"modified": 1555946148151,
+			"name": "upload_course_image",
+			"parameters": [],
+			"parentId": "fld_9d3d00f94b204da09d900c8a543cc44b",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingMaxTimelineDataSize": 1000,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "http://127.0.0.1:5000/api/courses/4/images",
+			"_type": "request"
+		},
+		{
+			"_id": "req_c5f8f6355669434c950e69fb22d1f70a",
+			"authentication": {},
+			"body": {
+				"mimeType": "multipart/form-data",
+				"params": [
+					{
+						"fileName": "/home/peio_jr/thinking.jpg",
+						"id": "pair_6c61d7003f9d4c63b7b88e3640209892",
+						"name": "file",
+						"type": "file",
+						"value": ""
+					},
+					{
+						"id": "pair_4f56e6aaeee1473cba878c546bbd138a",
+						"name": "",
+						"value": ""
+					}
+				]
+			},
+			"created": 1546694097627,
+			"description": "",
+			"headers": [
+				{
+					"id": "pair_264f9591736a4edbaa8d5a2b233901ac",
+					"name": "Content-Type",
+					"value": "multipart/form-data"
+				},
+				{
+					"disabled": true,
+					"id": "pair_ee4a199b6afd4d8181ebcb5995819c01",
+					"name": "Authorization",
+					"value": "{{ token  }}"
+				},
+				{
+					"disabled": true,
+					"id": "pair_e7c906cdff004ebbaac6fed89d6ad133",
+					"name": "Authorization",
+					"value": "{{ token2  }}"
+				},
+				{
+					"id": "pair_6ce98e80bdca402696387e0fc6514f4c",
+					"name": "Authorization",
+					"value": "{{ token3 }}"
+				}
+			],
+			"isPrivate": false,
+			"metaSortKey": -1540737163951.25,
+			"method": "PUT",
+			"modified": 1555946155998,
+			"name": "change_course_image",
+			"parameters": [],
+			"parentId": "fld_9d3d00f94b204da09d900c8a543cc44b",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingMaxTimelineDataSize": 1000,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "http://127.0.0.1:5000/api/courses/5/images",
+			"_type": "request"
+		}
+	]
+}

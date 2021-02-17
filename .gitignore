@@ -1,0 +1,7 @@
+b_data/
+/static/
+mariadb/
+config/client_config.json
+config/server_config.py
+__pycache__/
+.env

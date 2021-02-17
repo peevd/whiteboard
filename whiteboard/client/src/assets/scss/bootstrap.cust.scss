@@ -1,0 +1,35 @@
+$breadcrumb-divider: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzMDcuMDQ2IDMwNy4wNDYiIGhlaWdodD0iMTJweCIgd2lkdGg9IjEycHgiIHZlcnNpb249IjEuMSI+CjxwYXRoIGlkPSJwYXRoOTQ0IiBkPSJNMjM5LjA4NywxNDIuNDI3TDEwMS4yNTksNC41OTdjLTYuMTMzLTYuMTI5LTE2LjA3My02LjEyOS0yMi4yMDMsMEw2Ny45NTUsMTUuNjk4Yy02LjEyOSw2LjEzMy02LjEyOSwxNi4wNzYsMCwyMi4yMDEgbDExNS42MjEsMTE1LjYyNkw2Ny45NTUsMjY5LjEzNWMtNi4xMjksNi4xMzYtNi4xMjksMTYuMDg2LDAsMjIuMjA5bDExLjEwMSwxMS4xMDFjNi4xMyw2LjEzNiwxNi4wNyw2LjEzNiwyMi4yMDMsMCBsMTM3LjgyOC0xMzcuODMxQzI0NS4yMjIsMTU4LjQ4NywyNDUuMjIyLDE0OC41NTYsMjM5LjA4NywxNDIuNDI3eiIvPgo8L3N2Zz4K);
+
+@import "../../../node_modules/bootstrap/scss/bootstrap.scss";
+
+.card-columns {
+  column-count: 2;
+
+  @include media-breakpoint-up(lg) {
+    column-count: 4;
+  }
+}
+
+.card-columns.card-columns-medium {
+  column-count: 1;
+
+  @include media-breakpoint-up(md) {
+    column-count: 2;
+  }
+
+  @include media-breakpoint-up(lg) {
+    column-count: 3;
+  }
+
+  @include media-breakpoint-up(xl) {
+    column-count: 4;
+  }
+}
+
+.card-columns.card-columns-big {
+  column-count: 1;
+
+  @include media-breakpoint-up(lg) {
+    column-count: 2;
+  }
+}

@@ -1,0 +1,8 @@
+whiteboarddb/
+b_data/
+/static/
+config/*.default.*
+whiteboard/instance/config.py
+whiteboard/client/src/config.json
+whiteboard/client/node_modules
+present_handler/
